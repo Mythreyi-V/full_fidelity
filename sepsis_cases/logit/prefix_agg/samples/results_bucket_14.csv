@@ -1,0 +1,9 @@
+Case ID;Actual;Prefix Length;Prediction;Prediction Probability;SHAP Subset Stability;SHAP Weight Stability;SHAP Adjusted Weight Stability;LIME Subset Stability;LIME Weight Stability;LIME Adjusted Weight Stability;ACV Subset Stability;ACV Weight Stability;ACV Adjusted Weight Stability;LINDA Subset Stability;LINDA Weight Stability;LINDA Adjusted Weight Stability
+FN_14;0;14;0;1.0;1.0;1.0;1.0;;1.0;1.0;1.0;1.0;1.0;;1.0;1.0
+GE_14;0;14;0;1.0;1.0;1.0;1.0;;1.0;1.0;1.0;1.0;1.0;;1.0;1.0
+HEA_14;1;14;1;0.999999931454332;1.0;1.0;1.0;;1.0;1.0;;1.0;1.0;;1.0;1.0
+JMA_14;0;14;1;0.9999999999999714;1.0;1.0;1.0;;1.0;1.0;;1.0;1.0;;1.0;1.0
+PK_14;0;14;1;0.9999023555069247;1.0;1.0;1.0;;1.0;1.0;;1.0;1.0;;1.0;1.0
+PLA_14;1;14;1;0.99628366474226;1.0;1.0;1.0;;1.0;1.0;;1.0;1.0;;1.0;1.0
+WT_14;1;14;1;0.9992499353219876;1.0;1.0;1.0;;1.0;1.0;;1.0;1.0;;1.0;1.0
+XT_14;1;14;1;0.999999989651964;1.0;1.0;1.0;;1.0;1.0;;1.0;1.0;;1.0;1.0
