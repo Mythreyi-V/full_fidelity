@@ -1,0 +1,9 @@
+Case ID,Actual,Prefix Length,Prediction,Prediction Probability
+EI_4,1,4,1,1.0
+EQ_4,1,4,0,0.6666666666666666
+FMA_4,1,4,0,0.5714285714285714
+GV_4,0,4,0,1.0
+HO_4,0,4,1,1.0
+OMA_4,0,4,1,0.8
+RT_4,0,4,0,0.8
+VG_4,1,4,1,1.0

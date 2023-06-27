@@ -1,0 +1,9 @@
+Case ID,Actual,Prefix Length,Prediction,Prediction Probability
+HE_8,0,8,1,1.0
+KT_8,0,8,0,0.8
+L_8,1,8,0,0.5333333333333333
+PB_8,1,8,0,0.5
+PLA_8,1,8,1,1.0
+QIA_8,1,8,1,1.0
+TU_8,0,8,0,0.5
+YBA_8,0,8,0,1.0

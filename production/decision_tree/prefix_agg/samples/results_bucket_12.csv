@@ -1,0 +1,9 @@
+Case ID,Actual,Prefix Length,Prediction,Prediction Probability
+Case20_12,1,12,0,1.0
+Case210_12,0,12,0,1.0
+Case238_12,1,12,1,1.0
+Case239_12,0,12,0,1.0
+Case245_12,1,12,1,1.0
+Case274_12,0,12,0,1.0
+Case38_12,1,12,1,1.0
+Case83_12,0,12,1,0.5555555555555556
