@@ -1,0 +1,9 @@
+Case ID;Actual;Prefix Length;Prediction;Prediction Probability;MAPE Correctness;RMSE Correctness;R2 Correctness;Mode
+FX_13;1;13;0;0.5648148148148148;;;;baseline_min
+GG_13;1;13;0;0.5648148148148148;;;;baseline_min
+IM_13;0;13;0;0.5648148148148148;;;;baseline_min
+KA_13;0;13;0;0.5648148148148148;;;;baseline_min
+KX_13;1;13;0;0.5648148148148148;;;;baseline_min
+LG_13;0;13;0;0.5648148148148148;;;;baseline_min
+NP_13;0;13;1;0.7333333333333333;1.0;1.0;-1.0;baseline_min
+VG_13;1;13;1;0.7333333333333333;1.0;1.0;-1.0;baseline_min

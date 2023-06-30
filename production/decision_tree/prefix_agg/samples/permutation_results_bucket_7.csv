@@ -1,0 +1,9 @@
+Case ID;Actual;Prefix Length;Prediction;Prediction Probability;MAPE Correctness;RMSE Correctness;R2 Correctness;Mode
+Case215_7;0;7;0;0.8387096774193549;1.0;1.0;-1.0;permutation
+Case230_7;1;7;1;0.6567164179104478;1.0;1.0;-1.0;permutation
+Case256_7;1;7;1;0.6567164179104478;1.0;1.0;-1.0;permutation
+Case265_7;0;7;0;0.8387096774193549;1.0;1.0;-1.0;permutation
+Case47_7;0;7;1;0.6567164179104478;1.0;1.0;-1.0;permutation
+Case59_7;1;7;1;0.6567164179104478;1.0;1.0;-1.0;permutation
+Case62_7;0;7;1;0.6567164179104478;1.0;1.0;-1.0;permutation
+Case95_7;1;7;1;0.6567164179104478;1.0;1.0;-1.0;permutation

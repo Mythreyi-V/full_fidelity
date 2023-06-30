@@ -1,0 +1,9 @@
+Case ID;Actual;Prefix Length;Prediction;Prediction Probability;MAPE Correctness;RMSE Correctness;R2 Correctness;Mode
+Case101_14;0;14;1;0.8125;1.0;1.0;-1.0;baseline_mean
+Case102_14;1;14;1;0.8125;1.0;1.0;-1.0;baseline_mean
+Case178_14;0;14;0;1.0;0.7055710573238233;0.7055710573238233;-0.7055710573238233;baseline_mean
+Case17_14;1;14;1;0.8125;1.0;1.0;-1.0;baseline_mean
+Case245_14;1;14;1;0.625;;;;baseline_mean
+Case265_14;0;14;1;0.625;;;;baseline_mean
+Case78_14;1;14;1;0.8125;1.0;1.0;-1.0;baseline_mean
+Case83_14;0;14;0;1.0;0.7055710573238233;0.7055710573238233;-0.7055710573238233;baseline_mean

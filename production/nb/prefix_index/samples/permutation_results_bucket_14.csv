@@ -1,0 +1,9 @@
+"Case ID;Actual;Prefix Length;Prediction;Prediction Probability;SHAP Subset Stability;SHAP Weight Stability;SHAP Adjusted Weight Stability;LIME Subset Stability;LIME Weight Stability;LIME Adjusted Weight Stability;ACV Subset Stability;ACV Weight Stability;ACV Adjusted Weight Stability";MAPE Correctness;RMSE Correctness;R2 Correctness;Mode
+"Case101_14;0;14;0;1.0;1.0;0.999688876046522;0.999688876046522;;1.0;1.0;;1.0;1.0";;;;permutation
+"Case115_14;1;14;1;1.0;1.0;0.99982818217653;0.99982818217653;;1.0;1.0;;1.0;1.0";;;;permutation
+"Case178_14;0;14;0;1.0;1.0;0.9994150788576676;0.9994150788576676;;1.0;1.0;;1.0;1.0";;;;permutation
+"Case17_14;1;14;1;1.0;1.0;0.9997903076040924;0.9997903076040924;;1.0;1.0;;1.0;1.0";;;;permutation
+"Case192_14;0;14;0;1.0;1.0;0.999747018010267;0.999747018010267;;1.0;1.0;;1.0;1.0";;;;permutation
+"Case249_14;1;14;1;1.0;1.0;0.9998423726022304;0.9998423726022304;;1.0;1.0;;1.0;1.0";;;;permutation
+"Case78_14;1;14;1;1.0;1.0;0.9997887926543076;0.9997887926543076;;1.0;1.0;;1.0;1.0";;;;permutation
+"Case90_14;0;14;0;1.0;1.0;0.9997951491561188;0.9997951491561188;;1.0;1.0;;1.0;1.0";;;;permutation

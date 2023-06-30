@@ -1,0 +1,9 @@
+Case ID;Actual;Prefix Length;Prediction;Prediction Probability;MAPE Correctness;RMSE Correctness;R2 Correctness;Mode
+EC_4;0;4;1;0.5419354838709678;;;;baseline_0
+EK_4;0;4;1;0.5419354838709678;;;;baseline_0
+HT_4;0;4;1;0.5419354838709678;;;;baseline_0
+II_4;1;4;1;0.5419354838709678;;;;baseline_0
+SCA_4;1;4;1;0.5419354838709678;;;;baseline_0
+TCA_4;1;4;1;0.5419354838709678;;;;baseline_0
+XI_4;1;4;1;0.5419354838709678;;;;baseline_0
+YM_4;0;4;1;0.5419354838709678;;;;baseline_0

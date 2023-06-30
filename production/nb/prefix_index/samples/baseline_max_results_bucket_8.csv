@@ -1,0 +1,9 @@
+"Case ID;Actual;Prefix Length;Prediction;Prediction Probability;SHAP Subset Stability;SHAP Weight Stability;SHAP Adjusted Weight Stability;LIME Subset Stability;LIME Weight Stability;LIME Adjusted Weight Stability;ACV Subset Stability;ACV Weight Stability;ACV Adjusted Weight Stability";MAPE Correctness;RMSE Correctness;R2 Correctness;Mode
+"Case115_8;1;8;1;1.0;1.0;0.9703189312246718;0.9703189312246718;;1.0;1.0;;1.0;1.0";;;;baseline_max
+"Case119_8;0;8;1;1.0;1.0;0.8552523328573449;0.8552523328573449;;1.0;1.0;;1.0;1.0";0.37026134654593257;0.37026134654593257;-0.37026134654593257;baseline_max
+"Case127_8;1;8;1;1.0;1.0;0.9634964333582309;0.9634964333582309;;1.0;1.0;;1.0;1.0";;;;baseline_max
+"Case251_8;0;8;0;1.0;1.0;0.9385891428036296;0.9385891428036296;;1.0;1.0;;1.0;1.0";;;;baseline_max
+"Case27_8;0;8;0;1.0;1.0;0.9656715291073408;0.9656715291073408;;1.0;1.0;;1.0;1.0";0.4265632721539526;0.4265632721539526;-0.42577521065580803;baseline_max
+"Case28_8;1;8;1;1.0;1.0;0.9797220197577352;0.9797220197577352;;1.0;1.0;;1.0;1.0";;;;baseline_max
+"Case61_8;1;8;1;1.0;1.0;0.9789439215809232;0.9789439215809232;;1.0;1.0;;1.0;1.0";;;;baseline_max
+"Case9_8;0;8;0;1.0;1.0;0.9615073113461914;0.9615073113461914;;1.0;1.0;;1.0;1.0";;;;baseline_max
