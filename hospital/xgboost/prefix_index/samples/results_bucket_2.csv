@@ -1,0 +1,9 @@
+Case ID;Actual;Prefix Length;Prediction;Prediction Probability;SHAP Subset Stability;SHAP Weight Stability;SHAP Adjusted Weight Stability
+DCLD_2;0;2;0;0.5116677;1.0;1.0;1.0
+EXCE_2;1;2;0;0.9925655;1.0;1.0;1.0
+FBFE_2;0;2;0;0.9999612;1.0;1.0;1.0
+JLYD_2;1;2;1;1.0;1.0;0.9999999999996778;0.9999999999996778
+KSOD_2;0;2;0;0.99905884;1.0;1.0;1.0
+MTVD_2;0;2;0;0.99993765;1.0;1.0;1.0
+WVLE_2;1;2;1;0.99999845;1.0;1.0;1.0
+YSXD_2;1;2;1;0.9999995;1.0;1.0;1.0

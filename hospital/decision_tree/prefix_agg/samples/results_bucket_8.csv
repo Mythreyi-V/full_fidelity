@@ -1,0 +1,9 @@
+Case ID,Actual,Prefix Length,Prediction,Prediction Probability
+EJSD_8,1,8,0,0.7925170068027211
+GSTD_8,0,8,0,1.0
+HISD_8,1,8,0,0.7925170068027211
+JEZD_8,1,8,0,0.96
+LZOD_8,0,8,0,1.0
+MWUD_8,1,8,1,0.8
+OMND_8,0,8,0,1.0
+PEKD_8,0,8,0,0.96
