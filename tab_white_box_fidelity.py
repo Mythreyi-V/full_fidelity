@@ -378,6 +378,40 @@ def get_true_features(cls; instance; cls_method; X_train; feat_list; percentile)
     
     return true_score; true_features
 
+def test_fidelity(i):
+    #print("i:", i)
+    instance = test_x[i]
+    #print(instance)
+    true_score, true_features = get_true_features(cls, instance, cls_method, X_train.values, feat_list, percentile)
+    #print("True Score", true_score)
+    
+    if xai_method == "LINDA":
+        instance = test_dict[i]
+    
+    exp_score, explanation_features = get_explanation_features(explainer, instance, cls, scaler, dataset, classification, exp_iter, xai_method, 
+                                                        feat_list, X_train.values, y_train, percentile)
+#     print("Exp Score", exp_score)
+#     print("True Features: ", true_features)
+#     print("Explanation Features: ", explanation_features)
+    
+    if len(explanation_features) == 0:
+        recall = 0
+        precision = 0
+    else:
+        recall = len(true_features.intersection(explanation_features))/len(true_features)
+        precision = len(true_features.intersection(explanation_features))/len(explanation_features)
+        
+#     print("Recall:", recall)
+#     print("Precision:", precision)
+        
+    corr = scipy.stats.kendalltau(true_score, exp_score)[0]
+    
+#     print("Corr:", corr)
+    #progress_bar.clear()
+    #progress_bar.update(i)
+    
+    return recall, precision, corr
+
 # path to project folder
 # please change to your own
 PATH = os.getcwd()
@@ -387,7 +421,7 @@ print(sys.argv)
 dataset = sys.argv[1]
 cls_method = sys.argv[2]
 xai_method = sys.argv[3]
-classification = False if sys.argv[4] == "0" else True
+classification = True
 
 random_state = 22
 exp_iter = 5
@@ -453,38 +487,27 @@ elif xai_method == "ACV":
 
 compiled_precision = []
 compiled_recall = []
-
-compiled_precision = []
-compiled_recall = []
 compiled_corr = []
 
-for i in tqdm(range(len(test_x))):
-    instance = test_x[i]
-    true_score; true_features = get_true_features(cls; instance; cls_method; X_train.values; feat_list; percentile)
+#for i in tqdm_notebook(range(len(test_x))):
+#explain the chosen instances and find the fidelity
+pool = mp.Pool(mp.cpu_count(), initargs=(mp.RLock(),), initializer=tqdm.set_lock)
+
+#with tqdm(total = len(test_x)) as progress_bar:
+start = time.time()
+print(start)
+#recall, precision, corr = zip(*pool.map(test_fidelity, [i for i in range(len(test_x))]))
+for result in tqdm(pool.imap(test_fidelity, [i for i in range(len(test_x))]), total = len(test_x)):
+    compiled_precision.append(result[0])
+    compiled_recall.append(result[1])
+    compiled_corr.append(result[2])
     
-    if xai_method == "LINDA":
-        instance = test_dict[i]
+print(time.time()-start, "seconds")
     
-    exp_score; explanation_features = get_explanation_features(explainer; instance; cls; scaler; dataset; classification; exp_iter; xai_method; 
-                                                        feat_list; X_train.values; y_train; percentile)
-    
-    #print("True Features: "; true_features)
-    #print("Explanation Features: "; explanation_features)
-    
-    if len(explanation_features) == 0:
-        recall = 0
-        precision = 0
-    else:
-        recall = len(true_features.intersection(explanation_features))/len(true_features)
-        precision = len(true_features.intersection(explanation_features))/len(explanation_features)
-        
-    corr = scipy.stats.kendalltau(true_score; exp_score)[0]
-#    print(true_score; exp_score)
-    
-    compiled_precision.append(precision)
-    compiled_recall.append(recall)
-    compiled_corr.append(corr)
-    
+# compiled_precision = list(precision)
+# compiled_recall = list(recall)
+# compiled_corr = list(corr)
+
 compiled_corr = np.nan_to_num(compiled_corr)
     
 results[xai_method+" Precision"] = compiled_precision
