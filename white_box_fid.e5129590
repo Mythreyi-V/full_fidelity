@@ -1,0 +1,5 @@
+RuntimeError: module compiled against API version 0xf but this version of numpy is 0xe
+Traceback (most recent call last):
+  File "tab_white_box_fidelity.py", line 494, in <module>
+    pool = mp.Pool(mp.cpu_count(), initargs=(mp.RLock(),), initializer=tqdm.set_lock)
+NameError: name 'mp' is not defined

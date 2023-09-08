@@ -1,0 +1,16 @@
+queue started
+modules purged
+Executable path /home/n9455647/.conda/envs/conda_test/bin/python
+starting test
+['tab_white_box_fidelity.py', 'income', 'nb', 'SHAP']
+1694140243.8960094
+50.93042302131653 seconds
+0.69
+0.685
+0.6752271964025559
+test ended
+income nb SHAP
+PBS Job 5131046.pbs
+CPU time  : 00:00:08
+Wall time : 00:03:42
+Mem usage : 889192kb

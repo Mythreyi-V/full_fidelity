@@ -1,0 +1,11 @@
+queue started
+modules purged
+Executable path /home/n9455647/.conda/envs/conda_test/bin/python
+starting test
+['tab_white_box_fidelity.py', 'mushroom', 'nb', 'LIME']
+test ended
+mushroom nb LIME
+PBS Job 5129589.pbs
+CPU time  : 00:00:00
+Wall time : 00:00:23
+Mem usage : 0b

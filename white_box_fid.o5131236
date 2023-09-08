@@ -1,0 +1,16 @@
+queue started
+modules purged
+Executable path /home/n9455647/.conda/envs/conda_test/bin/python
+starting test
+['tab_white_box_fidelity.py', 'compas', 'decision_tree', 'LIME']
+1694143108.8336322
+153.57076811790466 seconds
+0.965
+0.24869047619047616
+0.4448647986404005
+test ended
+compas decision_tree LIME
+PBS Job 5131236.pbs
+CPU time  : 00:10:50
+Wall time : 00:04:41
+Mem usage : 2653048kb

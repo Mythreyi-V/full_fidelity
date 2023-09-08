@@ -1,0 +1,16 @@
+queue started
+modules purged
+Executable path /home/n9455647/.conda/envs/conda_test/bin/python
+starting test
+['tab_white_box_fidelity.py', 'mushroom', 'nb', 'SHAP']
+1694140104.4063468
+58.28027367591858 seconds
+0.825
+0.6056666666666667
+0.3360144644261074
+test ended
+mushroom nb SHAP
+PBS Job 5131048.pbs
+CPU time  : 00:00:00
+Wall time : 00:01:32
+Mem usage : 0b

@@ -1,0 +1,17 @@
+RuntimeError: module compiled against API version 0xf but this version of numpy is 0xe
+Traceback (most recent call last):
+  File "tab_white_box_fidelity.py", line 436, in <module>
+    X_train = pd.read_csv(dataset_folder+dataset+"_Xtrain.csv", index_col=False, sep = ";")
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/site-packages/pandas/io/parsers.py", line 452, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/site-packages/pandas/io/parsers.py", line 936, in __init__
+    self._make_engine(self.engine)
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/site-packages/pandas/io/parsers.py", line 1168, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/site-packages/pandas/io/parsers.py", line 1998, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/home/n9455647/full_fidelity/irus//datasets/irus_Xtrain.csv'

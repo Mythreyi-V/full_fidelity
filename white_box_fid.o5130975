@@ -1,0 +1,11 @@
+queue started
+modules purged
+Executable path /home/n9455647/.conda/envs/conda_test/bin/python
+starting test
+['tab_white_box_fidelity.py', 'nursery', 'nb', 'SHAP']
+test ended
+nursery nb SHAP
+PBS Job 5130975.pbs
+CPU time  : 00:00:00
+Wall time : 00:00:13
+Mem usage : 0b

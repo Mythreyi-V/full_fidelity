@@ -1,0 +1,33 @@
+RuntimeError: module compiled against API version 0xf but this version of numpy is 0xe
+  0%|          | 0/26 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:16, 16.50s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:16, 16.51s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:16, 16.96s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:17, 17.03s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:17, 17.20s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:17, 17.45s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:17, 17.46s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:17, 17.55s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:17, 17.93s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:18, 18.01s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:18, 18.55s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:18, 18.61s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:18, 18.71s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:18, 18.83s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:18, 18.86s/it]                 4%|▍         | 1/26 [00:18<07:52, 18.91s/it]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:18, 18.89s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:19, 19.09s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:19, 19.12s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:19, 19.22s/it]                 8%|▊         | 2/26 [00:19<03:11,  7.98s/it]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:19, 19.32s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:19, 19.47s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:19, 19.47s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:19, 19.59s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:19, 19.65s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:19, 19.69s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:20, 20.25s/it]                15%|█▌        | 4/26 [00:20<01:12,  3.30s/it]100%|██████████| 26/26 [00:20<00:00,  1.28it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Exception ignored in: <function Pool.__del__ at 0x2b63fef10160>
+Traceback (most recent call last):
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'

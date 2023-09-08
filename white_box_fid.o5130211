@@ -1,0 +1,16 @@
+queue started
+modules purged
+Executable path /home/n9455647/.conda/envs/conda_test/bin/python
+starting test
+['tab_white_box_fidelity.py', 'diabetes', 'nb', 'LIME']
+1694067129.6065042
+274.376806974411 seconds
+0.625
+0.635
+0.6435714285714286
+test ended
+diabetes nb LIME
+PBS Job 5130211.pbs
+CPU time  : 00:45:23
+Wall time : 00:05:16
+Mem usage : 1584612kb

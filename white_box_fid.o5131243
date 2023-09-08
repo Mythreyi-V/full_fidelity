@@ -1,0 +1,16 @@
+queue started
+modules purged
+Executable path /home/n9455647/.conda/envs/conda_test/bin/python
+starting test
+['tab_white_box_fidelity.py', 'breast_cancer', 'logit', 'LIME']
+1694143689.9462452
+1094.8677945137024 seconds
+0.79
+0.245
+0.5184367816091954
+test ended
+breast_cancer logit LIME
+PBS Job 5131243.pbs
+CPU time  : 02:53:07
+Wall time : 00:18:43
+Mem usage : 1698864kb

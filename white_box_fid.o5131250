@@ -1,0 +1,16 @@
+queue started
+modules purged
+Executable path /home/n9455647/.conda/envs/conda_test/bin/python
+starting test
+['tab_white_box_fidelity.py', 'iris', 'logit', 'LIME']
+1694144358.5015128
+54.11477208137512 seconds
+0.8653846153846154
+0.9230769230769231
+0.858974358974359
+test ended
+iris logit LIME
+PBS Job 5131250.pbs
+CPU time  : 00:00:00
+Wall time : 00:01:10
+Mem usage : 0b
