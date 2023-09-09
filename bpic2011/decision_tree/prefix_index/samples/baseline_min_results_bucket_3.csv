@@ -1,0 +1,9 @@
+Case ID;Actual;Prefix Length;Prediction;"Prediction Probability;SHAP Precision;SHAP Recall;SHAP Correlation";MAPE Correctness;RMSE Correctness;R2 Correctness;Mode
+1002_3;1;3;0;"0.8225352112676056;1.0;1.0;1.0";;;;baseline_min
+1012_3;0;3;0;"0.8225352112676056;1.0;1.0;1.0";;;;baseline_min
+1032_3;1;3;1;"0.6834170854271356;1.0;1.0;1.0";1.0;1.0;-1.0;baseline_min
+1141_3;0;3;1;"0.6834170854271356;1.0;1.0;1.0";1.0;1.0;-1.0;baseline_min
+914_3;1;3;1;"0.6834170854271356;1.0;1.0;1.0";1.0;1.0;-1.0;baseline_min
+926_3;1;3;1;"0.6834170854271356;1.0;1.0;1.0";1.0;1.0;-1.0;baseline_min
+936_3;0;3;1;"0.6834170854271356;1.0;1.0;1.0";1.0;1.0;-1.0;baseline_min
+967_3;0;3;0;"0.8225352112676056;1.0;1.0;1.0";;;;baseline_min
