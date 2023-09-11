@@ -1,0 +1,17 @@
+queue started
+modules purged
+Executable path /home/n9455647/.conda/envs/conda_test/bin/python
+starting test
+  0%|          | 0/1 [00:00<?, ?it/s]
+Bucket 1
+permutation Mean correlation: -0.6282305694399292
+baseline_min Mean correlation: 0.018675095994744685
+baseline_mean Mean correlation: -0.49938719795535685
+baseline_max Mean correlation: -0.583501488673453
+baseline_0 Mean correlation: 0.018675095994744685
+test ended
+bpic2011 single agg logit
+PBS Job 5136478.pbs
+CPU time  : 08:44:49
+Wall time : 00:55:35
+Mem usage : 3674556kb

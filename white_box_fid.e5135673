@@ -1,0 +1,158 @@
+RuntimeError: module compiled against API version 0xf but this version of numpy is 0xe
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/112 [00:00<?, ?it/s][A
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:35, 35.80s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:35, 35.59s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:35, 35.79s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:36, 36.77s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:35, 35.84s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:35, 35.73s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:36, 36.27s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:36, 36.06s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:36, 36.36s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:36, 36.45s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:36, 36.49s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:36, 36.29s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:36, 36.71s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:36, 36.77s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:36, 36.87s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:36, 36.98s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:37, 37.83s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:37, 37.94s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:41, 41.41s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:41, 41.26s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:42, 42.37s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:41, 41.60s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:41, 41.45s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:41, 41.62s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:41, 41.74s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:43, 43.48s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:42, 42.43s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:42, 42.82s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:42, 42.91s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:42, 42.95s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:42, 42.85s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:43, 43.74s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:43, 43.99s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:42, 42.76s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:43, 43.10s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:42, 42.98s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:43, 43.90s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:44, 44.07s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:43, 43.47s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:42, 42.94s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:43, 43.03s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:43, 43.29s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:43, 43.03s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:43, 43.87s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:43, 43.33s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:43, 43.22s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:50, 50.92s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:51, 51.15s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:51, 51.12s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:51, 51.62s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:51, 51.67s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:51, 51.45s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:51, 51.59s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:51, 51.69s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:51, 51.61s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:52, 52.05s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:51, 51.98s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:52, 52.09s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:52, 52.34s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:52, 52.41s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:52, 52.45s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:54, 54.03s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:54, 54.13s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:53, 53.93s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:53, 53.93s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:54, 54.59s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:55, 55.47s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:54, 54.60s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:54, 54.81s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:56, 56.52s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:57, 57.03s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:58, 58.55s/it]               
+  1%|          | 1/112 [01:17<2:23:50, 77.75s/it][A
+ 18%|█▊        | 20/112 [01:17<04:14,  2.77s/it] [A
+ 42%|████▏     | 47/112 [01:18<01:01,  1.06it/s][A
+ 81%|████████▏ | 91/112 [01:18<00:07,  2.68it/s][A
+ 98%|█████████▊| 110/112 [01:19<00:00,  3.46it/s][A100%|██████████| 112/112 [01:19<00:00,  1.41it/s]
+100%|██████████| 1/1 [01:25<00:00, 85.35s/it]100%|██████████| 1/1 [01:25<00:00, 85.35s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Exception ignored in: <function Pool.__del__ at 0x2b71591174c0>
+Traceback (most recent call last):
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'

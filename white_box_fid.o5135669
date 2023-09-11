@@ -1,0 +1,11 @@
+queue started
+modules purged
+Executable path /home/n9455647/.conda/envs/conda_test/bin/python
+starting test
+Bucket 1
+test ended
+hospital single agg nb SHAP
+PBS Job 5135669.pbs
+CPU time  : 00:02:32
+Wall time : 00:02:39
+Mem usage : 13630544kb

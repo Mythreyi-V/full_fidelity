@@ -1,0 +1,95 @@
+queue started
+modules purged
+Executable path /home/n9455647/.conda/envs/conda_test/bin/python
+starting test
+  0%|          | 0/14 [00:00<?, ?it/s]
+Bucket 1
+permutation Mean correlation: -0.6925601695916315
+baseline_min Mean correlation: -0.006628504139576641
+baseline_mean Mean correlation: -0.48065188721500757
+baseline_max Mean correlation: -0.6786235616056622
+baseline_0 Mean correlation: -0.006628504139576641
+Bucket 2
+permutation Mean correlation: -0.5009488934930004
+baseline_min Mean correlation: -0.034106087730819655
+baseline_mean Mean correlation: -0.3795102011613296
+baseline_max Mean correlation: -0.46432638063619625
+baseline_0 Mean correlation: -0.034106087730819655
+Bucket 3
+permutation Mean correlation: -0.8445428697580635
+baseline_min Mean correlation: -0.06602318742635264
+baseline_mean Mean correlation: -0.6789096238495096
+baseline_max Mean correlation: -0.8193522471309846
+baseline_0 Mean correlation: -0.06602318742635264
+Bucket 4
+permutation Mean correlation: -0.970402258733518
+baseline_min Mean correlation: -0.06957059320962913
+baseline_mean Mean correlation: -0.7811218426754888
+baseline_max Mean correlation: -0.9528072797627161
+baseline_0 Mean correlation: -0.06957059320962913
+Bucket 5
+permutation Mean correlation: -0.8668593533406301
+baseline_min Mean correlation: -0.06258664167989436
+baseline_mean Mean correlation: -0.7034255512965986
+baseline_max Mean correlation: -0.8385831304152228
+baseline_0 Mean correlation: -0.06258664167989436
+Bucket 6
+permutation Mean correlation: -0.8636416208278943
+baseline_min Mean correlation: -0.08226002552468073
+baseline_mean Mean correlation: -0.7102539575509903
+baseline_max Mean correlation: -0.8320216917439827
+baseline_0 Mean correlation: -0.08226002552468073
+Bucket 7
+permutation Mean correlation: -0.9800636431790786
+baseline_min Mean correlation: -0.11123962374666288
+baseline_mean Mean correlation: -0.8265238023053183
+baseline_max Mean correlation: -0.9469307178947539
+baseline_0 Mean correlation: -0.11123962374666288
+Bucket 8
+permutation Mean correlation: -0.8311673151053106
+baseline_min Mean correlation: -0.1268926856786011
+baseline_mean Mean correlation: -0.707428929338214
+baseline_max Mean correlation: -0.7719996059657035
+baseline_0 Mean correlation: -0.1268926856786011
+Bucket 9
+permutation Mean correlation: -0.3560049293517079
+baseline_min Mean correlation: -0.080928609104188
+baseline_mean Mean correlation: -0.335609171073726
+baseline_max Mean correlation: -0.36879885399714496
+baseline_0 Mean correlation: -0.080928609104188
+Bucket 10
+permutation Mean correlation: -0.9898901759523807
+baseline_min Mean correlation: -0.17121866833998456
+baseline_mean Mean correlation: -0.8542576200096683
+baseline_max Mean correlation: -0.9231602115700779
+baseline_0 Mean correlation: -0.17121866833998456
+Bucket 11
+permutation Mean correlation: -0.8813110298902637
+baseline_min Mean correlation: -0.17445387370737722
+baseline_mean Mean correlation: -0.7560647267570999
+baseline_max Mean correlation: -0.7918988321384997
+baseline_0 Mean correlation: -0.17445387370737722
+Bucket 12
+permutation Mean correlation: -0.8807667964657563
+baseline_min Mean correlation: -0.21217165038509544
+baseline_mean Mean correlation: -0.7739714173097105
+baseline_max Mean correlation: -0.7672924585191268
+baseline_0 Mean correlation: -0.21217165038509544
+Bucket 13
+permutation Mean correlation: -0.9705372350934127
+baseline_min Mean correlation: -0.23247484004222463
+baseline_mean Mean correlation: -0.8244822113818997
+baseline_max Mean correlation: -0.8622241422079099
+baseline_0 Mean correlation: -0.23247484004222463
+Bucket 14
+permutation Mean correlation: -0.984496072911609
+baseline_min Mean correlation: -0.23140641795827363
+baseline_mean Mean correlation: -0.8506364782295687
+baseline_max Mean correlation: -0.8491799805928573
+baseline_0 Mean correlation: -0.23140641795827363
+test ended
+hospital prefix index logit
+PBS Job 5136435.pbs
+CPU time  : 117:29:40
+Wall time : 12:09:08
+Mem usage : 16066712kb

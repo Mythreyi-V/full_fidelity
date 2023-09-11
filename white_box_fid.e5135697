@@ -1,0 +1,465 @@
+RuntimeError: module compiled against API version 0xf but this version of numpy is 0xe
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/112 [00:00<?, ?it/s][A
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:28, 28.17s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:29, 29.68s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:29, 29.70s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:30, 30.20s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:31, 31.66s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:32, 32.90s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:32, 32.25s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:33, 33.07s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:33, 33.41s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:33, 33.58s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:33, 33.92s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:34, 34.12s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:34, 34.44s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:34, 34.51s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:34, 34.87s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:35, 35.20s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:36, 36.92s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:38, 38.14s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:39, 39.12s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:39, 39.60s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:39, 39.33s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:39, 39.40s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:39, 39.70s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:39, 39.97s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:40, 40.32s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:40, 40.18s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:42, 42.89s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:50, 50.66s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:51, 51.54s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:51, 51.83s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:52, 52.61s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:52, 52.58s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:53, 53.15s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:52, 53.00s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:53, 53.11s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:53, 53.61s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:53, 53.58s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:53, 53.76s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.23s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:53, 53.93s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:54, 54.09s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:54, 54.15s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:54, 54.51s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:54, 55.00s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:56, 56.35s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:59, 59.00s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:59, 59.76s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:59, 59.75s/it]               
+  1%|          | 1/112 [01:05<2:00:37, 65.20s/it][A
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.35s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [01:00, 60.17s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [01:00, 60.88s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [01:00, 60.81s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [01:00, 60.98s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [01:01, 61.06s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [01:01, 61.24s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [01:01, 61.32s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.57s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [01:01, 61.62s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [01:01, 61.63s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.51s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [01:02, 62.06s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [01:02, 62.03s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [01:03, 63.78s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [01:02, 62.28s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [01:02, 62.45s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [01:02, 62.74s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.87s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.61s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.48s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.35s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.16s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.57s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.73s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.78s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.80s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.99s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.84s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.58s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.07s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.45s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.38s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.69s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.36s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.08s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.85s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.05s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.77s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.87s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.38s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.41s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.20s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.50s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [01:14, 74.04s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.78s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.67s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:13, 13.05s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.92s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.16s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:13, 13.08s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.93s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.83s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [01:14, 74.90s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.80s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.53s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.89s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.97s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.44s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [01:15, 75.36s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.08s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:13, 13.05s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.94s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [01:15, 75.84s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [01:15, 75.92s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [01:16, 76.06s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:13, 13.60s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.03s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.18s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:13, 13.66s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.37s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.90s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [01:17, 77.61s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:15, 15.50s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.62s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [01:18, 78.38s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.57s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [01:20, 80.56s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [01:21, 81.04s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.68s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.93s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.64s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.95s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.22s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.04s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.04s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:13, 13.18s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.13s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.43s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.41s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.69s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.72s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.79s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.10s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.20s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.28s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.95s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.76s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.31s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:13, 13.09s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:13, 13.31s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.43s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.58s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:13, 13.27s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:13, 13.39s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:13, 13.17s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:13, 13.26s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.69s/it]               
+
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:13, 13.48s/it]               
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.71s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.26s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:15, 15.77s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.09s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:14, 14.15s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:15, 15.57s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:14, 14.16s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:16, 16.30s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.94s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:16, 16.51s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:16, 16.87s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.89s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:17, 17.03s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:16, 16.14s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.11s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.93s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.97s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.44s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.85s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.27s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.10s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:19, 19.46s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.26s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.95s/it]               
+  2%|▏         | 2/112 [01:42<1:29:37, 48.89s/it][A
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.19s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:19, 19.31s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.17s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.27s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.45s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 13.00s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.22s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.40s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.51s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.70s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.63s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.21s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.34s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.44s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.82s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.30s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.70s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:13, 13.02s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.73s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.99s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.11s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:20, 20.93s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.94s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.88s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.33s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:21, 21.01s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:13, 13.12s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:14, 14.15s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:13, 13.74s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.95s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:13, 13.66s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:13, 13.57s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:12, 12.71s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:13, 13.67s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.98s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.93s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.10s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.33s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.40s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:11, 11.07s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.70s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.54s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.42s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.69s/it]               
+
+Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s][APermutation explainer: 2it [00:10, 10.77s/it]               
+  5%|▌         | 6/112 [02:06<27:54, 15.80s/it]  [A
+ 95%|█████████▍| 106/112 [02:07<00:03,  1.78it/s][A100%|██████████| 112/112 [02:07<00:00,  1.14s/it]
+100%|██████████| 1/1 [02:20<00:00, 140.30s/it]100%|██████████| 1/1 [02:20<00:00, 140.30s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Exception ignored in: <function Pool.__del__ at 0x2b0c827254c0>
+Traceback (most recent call last):
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'

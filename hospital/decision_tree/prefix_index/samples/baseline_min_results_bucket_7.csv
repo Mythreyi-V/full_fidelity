@@ -1,0 +1,9 @@
+Case ID;Actual;Prefix Length;Prediction;"Prediction Probability;SHAP Precision;SHAP Recall;SHAP Correlation";MAPE Correctness;RMSE Correctness;R2 Correctness;Mode
+ANSD_7;1;7;0;"0.850501002004008;1.0;1.0;1.0";;;;baseline_min
+CFAE_7;0;7;0;"0.850501002004008;1.0;1.0;1.0";;;;baseline_min
+IKME_7;0;7;0;"0.850501002004008;1.0;1.0;1.0";;;;baseline_min
+KHUD_7;0;7;0;"0.850501002004008;1.0;1.0;1.0";;;;baseline_min
+MPRD_7;1;7;0;"0.850501002004008;1.0;1.0;1.0";;;;baseline_min
+QYWD_7;0;7;0;"0.850501002004008;1.0;1.0;1.0";;;;baseline_min
+TIGE_7;1;7;0;"0.850501002004008;1.0;1.0;1.0";;;;baseline_min
+XLHE_7;1;7;0;"0.850501002004008;1.0;1.0;1.0";;;;baseline_min

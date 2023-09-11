@@ -1,0 +1,30 @@
+RuntimeError: module compiled against API version 0xf but this version of numpy is 0xe
+  0%|          | 0/100 [00:00<?, ?it/s]  0%|          | 0/100 [00:00<?, ?it/s]
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "tab_white_box_fidelity.py", line 392, in test_fidelity
+    exp_score, explanation_features = get_explanation_features(explainer, instance, cls, scaler, dataset, classification, exp_iter, xai_method,
+  File "tab_white_box_fidelity.py", line 355, in get_explanation_features
+    exp_score, feat_pos = get_linda_features(instance, cls, scaler, dataset, exp_iter, feat_list, percentile)
+  File "tab_white_box_fidelity.py", line 246, in get_linda_features
+    [bn, inference, infoBN] = generate_BN_explanations(instance, label_lst, feat_list, "Result",
+  File "/mnt/home/n9455647/full_fidelity/learning.py", line 677, in generate_BN_explanations
+    os.makedirs(folder_path_permutations, mode=0o777)
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/os.py", line 223, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/mnt/home/n9455647/full_fidelity/diabetes//logit/feature_permutations/diabetes/true_negatives/'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "tab_white_box_fidelity.py", line 501, in <module>
+    for result in tqdm(pool.imap(test_fidelity, [i for i in range(len(test_x))]), total = len(test_x)):
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/pool.py", line 868, in next
+    raise value
+FileExistsError: [Errno 17] File exists: '/mnt/home/n9455647/full_fidelity/diabetes//logit/feature_permutations/diabetes/true_negatives/'

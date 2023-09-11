@@ -674,7 +674,7 @@ def generate_BN_explanations(instance, label_lst, feature_names, class_var, enco
     try:
         original_umask = os.umask(0)
         if not os.path.isdir(folder_path_permutations):
-            os.makedirs(folder_path_permutations, mode=0o777)
+            os.makedirs(folder_path_permutations, mode=0o777, exist_ok=True)
     finally:
         os.umask(original_umask)
     path_to_permutations = folder_path_permutations + str(indx) + "_permutations.csv"
@@ -701,7 +701,7 @@ def generate_BN_explanations(instance, label_lst, feature_names, class_var, enco
     try:
         original_umask = os.umask(0)
         if not os.path.isdir(path_to_explanation):
-            os.makedirs(path_to_explanation, mode=0o777)
+            os.makedirs(path_to_explanation, mode=0o777, exist_ok=True)
     finally:
         os.umask(original_umask)
 #    gum.lib.bn2graph.dotize( bn , path_to_explanation + str(indx) + "_BN" )
