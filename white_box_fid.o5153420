@@ -1,0 +1,99 @@
+queue started
+modules purged
+Executable path /home/n9455647/.conda/envs/conda_test/bin/python
+starting test
+Bucket 1
+87.87136363983154 seconds
+Average precision: 1.0
+Average recall: 1.0
+Average correlation: 0.03662695107326537
+
+---------------------
+
+Bucket 2
+124.01356625556946 seconds
+Average precision: 1.0
+Average recall: 0.4375
+Average correlation: 0.0544669304109571
+
+---------------------
+
+Bucket 3
+130.9244420528412 seconds
+Average precision: 1.0
+Average recall: 0.3125
+Average correlation: 0.07784698196598067
+
+---------------------
+
+Bucket 4
+131.39743375778198 seconds
+Average precision: 1.0
+Average recall: 0.2083514492753623
+Average correlation: 0.08177579339554897
+
+---------------------
+
+Bucket 5
+130.84578275680542 seconds
+Average precision: 1.0
+Average recall: 0.31835101053475323
+Average correlation: 0.08317945905242306
+
+---------------------
+
+Bucket 6
+130.9565064907074 seconds
+Average precision: 0.9375
+Average recall: 0.525
+Average correlation: 0.038766516195197796
+
+---------------------
+
+Bucket 7
+122.3958375453949 seconds
+Average precision: 0.875
+Average recall: 0.07954545454545454
+Average correlation: 0.11735324671805772
+
+---------------------
+
+Bucket 8
+118.43994069099426 seconds
+Average precision: 0.625
+Average recall: 0.03229166666666666
+Average correlation: 0.12205139897593717
+
+---------------------
+
+Bucket 9
+117.59681987762451 seconds
+Average precision: 1.0
+Average recall: 0.2419871794871795
+Average correlation: 0.14192656479507076
+
+---------------------
+
+Bucket 10
+116.02733254432678 seconds
+Average precision: 1.0
+Average recall: 1.0
+Average correlation: 0.04547940549946976
+
+---------------------
+
+Bucket 11
+112.61014437675476 seconds
+Average precision: 1.0
+Average recall: 0.38048245614035087
+Average correlation: 0.13091540451459915
+
+---------------------
+
+Bucket 12
+test ended
+hospital prefix agg decision_tree LIME
+PBS Job 5153420.pbs
+CPU time  : 03:22:25
+Wall time : 00:31:10
+Mem usage : 10180912kb

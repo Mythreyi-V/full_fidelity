@@ -1,0 +1,40 @@
+RuntimeError: module compiled against API version 0xf but this version of numpy is 0xe
+  0%|          | 0/14 [00:00<?, ?it/s]
+  0%|          | 0/8 [00:00<?, ?it/s][A
+ 12%|█▎        | 1/8 [00:46<05:23, 46.17s/it][A
+ 38%|███▊      | 3/8 [00:47<01:01, 12.39s/it][A
+ 50%|█████     | 4/8 [00:47<00:32,  8.21s/it][A
+ 75%|███████▌  | 6/8 [00:47<00:08,  4.21s/it][A100%|██████████| 8/8 [00:47<00:00,  5.99s/it]
+  7%|▋         | 1/14 [01:57<25:26, 117.40s/it]
+  0%|          | 0/8 [00:00<?, ?it/s][A
+ 12%|█▎        | 1/8 [01:49<12:44, 109.28s/it][A100%|██████████| 8/8 [01:49<00:00, 13.67s/it] 
+ 14%|█▍        | 2/14 [05:59<38:06, 190.54s/it]
+  0%|          | 0/8 [00:00<?, ?it/s][A
+ 12%|█▎        | 1/8 [03:04<21:30, 184.38s/it][A100%|██████████| 8/8 [03:04<00:00, 23.05s/it] 
+ 21%|██▏       | 3/14 [12:03<49:30, 270.07s/it]
+  0%|          | 0/8 [00:00<?, ?it/s][A
+ 12%|█▎        | 1/8 [03:59<27:54, 239.28s/it][A
+ 25%|██▌       | 2/8 [04:00<09:55, 99.17s/it] [A
+ 38%|███▊      | 3/8 [04:01<04:31, 54.23s/it][A
+ 50%|█████     | 4/8 [04:02<02:12, 33.19s/it][A100%|██████████| 8/8 [04:02<00:00, 30.26s/it]
+ 29%|██▊       | 4/14 [19:41<57:21, 344.19s/it]Exception in thread Thread-11:
+Traceback (most recent call last):
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/pool.py", line 513, in _handle_workers
+    cls._maintain_pool(ctx, Process, processes, pool, inqueue,
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/pool.py", line 337, in _maintain_pool
+    Pool._repopulate_pool_static(ctx, Process, processes, pool,
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/pool.py", line 326, in _repopulate_pool_static
+    w.start()
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/popen_fork.py", line 70, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory

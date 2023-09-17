@@ -1,0 +1,31 @@
+RuntimeError: module compiled against API version 0xf but this version of numpy is 0xe
+  0%|          | 0/14 [00:00<?, ?it/s]
+  0%|          | 0/8 [00:00<?, ?it/s][A  0%|          | 0/8 [00:00<?, ?it/s]
+  0%|          | 0/14 [00:00<?, ?it/s]
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "el_white_box_fidelity.py", line 388, in test_fidelity
+    true_score, true_features = get_true_features(cls, instance, cls_method, trainingdata, feat_list, percentile)
+  File "el_white_box_fidelity.py", line 377, in get_true_features
+    true_features = [feat_list[i] for i in feat_pos]
+UnboundLocalError: local variable 'feat_pos' referenced before assignment
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "el_white_box_fidelity.py", line 534, in <module>
+    for result in tqdm(pool.imap(test_fidelity, [i for i in range(len(sample_instances))]), total = len(sample_instances)):
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/pool.py", line 868, in next
+    raise value
+UnboundLocalError: local variable 'feat_pos' referenced before assignment
+Exception ignored in: <function Pool.__del__ at 0x2ba2a02224c0>
+Traceback (most recent call last):
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'

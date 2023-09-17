@@ -1,0 +1,18 @@
+queue started
+modules purged
+Executable path /home/n9455647/.conda/envs/conda_test/bin/python
+starting test
+Bucket 1
+3169.0773882865906 seconds
+Average precision: 0.6954545454545454
+Average recall: 0.7181818181818181
+Average correlation: -0.04582804796361714
+
+---------------------
+
+test ended
+hospital single agg nb SHAP
+PBS Job 5157749.pbs
+CPU time  : 08:36:00
+Wall time : 00:57:08
+Mem usage : 104857600kb
