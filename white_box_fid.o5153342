@@ -1,0 +1,122 @@
+queue started
+modules purged
+Executable path /home/n9455647/.conda/envs/conda_test/bin/python
+starting test
+Bucket 1
+36.27454137802124 seconds
+Average precision: 0.6875
+Average recall: 0.5
+Average correlation: 0.7340373543065503
+
+---------------------
+
+Bucket 2
+52.10429000854492 seconds
+Average precision: 0.0
+Average recall: 0.0
+Average correlation: 0.5738166785769645
+
+---------------------
+
+Bucket 3
+66.87616562843323 seconds
+Average precision: 1.0
+Average recall: 0.5
+Average correlation: 0.46025154270311164
+
+---------------------
+
+Bucket 4
+82.2896146774292 seconds
+Average precision: 0.375
+Average recall: 0.75
+Average correlation: 0.4938507441232174
+
+---------------------
+
+Bucket 5
+97.01478481292725 seconds
+Average precision: 0.0
+Average recall: 0.0
+Average correlation: 0.5659740417692178
+
+---------------------
+
+Bucket 6
+113.21791982650757 seconds
+Average precision: 1.0
+Average recall: 1.0
+Average correlation: 0.587524064716703
+
+---------------------
+
+Bucket 7
+129.43922114372253 seconds
+Average precision: 0.3958333333333333
+Average recall: 0.5
+Average correlation: 0.5203002543818727
+
+---------------------
+
+Bucket 8
+143.89252090454102 seconds
+Average precision: 0.0
+Average recall: 0.0
+Average correlation: 0.3679459752317926
+
+---------------------
+
+Bucket 9
+163.45504713058472 seconds
+Average precision: 0.0
+Average recall: 0.0
+Average correlation: 0.3235223484184947
+
+---------------------
+
+Bucket 10
+176.99364304542542 seconds
+Average precision: 0.0
+Average recall: 0.0
+Average correlation: 0.23335681898456204
+
+---------------------
+
+Bucket 11
+190.73216843605042 seconds
+Average precision: 0.0
+Average recall: 0.0
+Average correlation: 0.25399630027978193
+
+---------------------
+
+Bucket 12
+207.38114953041077 seconds
+Average precision: 0.0
+Average recall: 0.0
+Average correlation: 0.3053526017311258
+
+---------------------
+
+Bucket 13
+225.79716897010803 seconds
+Average precision: 0.0
+Average recall: 0.0
+Average correlation: 0.2613080511299771
+
+---------------------
+
+Bucket 14
+240.09864830970764 seconds
+Average precision: 0.0
+Average recall: 0.0
+Average correlation: 0.26093364011362474
+
+---------------------
+
+test ended
+bpic2011 prefix index logit LIME
+PBS Job 5153342.pbs
+CPU time  : 04:32:20
+Wall time : 00:33:52
+Mem usage : 5875416kb

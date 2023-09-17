@@ -1,0 +1,46 @@
+RuntimeError: module compiled against API version 0xf but this version of numpy is 0xe
+  0%|          | 0/14 [00:00<?, ?it/s]
+  0%|          | 0/8 [00:00<?, ?it/s][A
+ 12%|█▎        | 1/8 [00:47<05:32, 47.48s/it][A
+ 75%|███████▌  | 6/8 [00:47<00:11,  5.91s/it][A100%|██████████| 8/8 [00:47<00:00,  5.99s/it]
+  7%|▋         | 1/14 [02:02<26:28, 122.16s/it]
+  0%|          | 0/8 [00:00<?, ?it/s][A
+ 12%|█▎        | 1/8 [01:47<12:30, 107.22s/it][A
+ 75%|███████▌  | 6/8 [01:48<00:26, 13.30s/it] [A
+100%|██████████| 8/8 [01:48<00:00,  8.94s/it][A100%|██████████| 8/8 [01:48<00:00, 13.56s/it]
+ 14%|█▍        | 2/14 [05:54<37:21, 186.83s/it]
+  0%|          | 0/8 [00:00<?, ?it/s][A
+ 12%|█▎        | 1/8 [02:58<20:48, 178.35s/it][A
+ 25%|██▌       | 2/8 [02:58<07:21, 73.63s/it] [A
+ 38%|███▊      | 3/8 [02:59<03:21, 40.35s/it][A
+ 50%|█████     | 4/8 [03:00<01:39, 24.99s/it][A
+ 88%|████████▊ | 7/8 [03:01<00:09,  9.38s/it][A100%|██████████| 8/8 [03:01<00:00, 22.66s/it]
+ 21%|██▏       | 3/14 [11:47<48:13, 263.01s/it]
+  0%|          | 0/8 [00:00<?, ?it/s][A
+ 12%|█▎        | 1/8 [03:55<27:26, 235.28s/it][A100%|██████████| 8/8 [03:55<00:00, 29.41s/it] 
+ 29%|██▊       | 4/14 [19:08<55:31, 333.19s/it] 29%|██▊       | 4/14 [23:18<58:15, 349.55s/it]
+Traceback (most recent call last):
+  File "el_white_box_fidelity.py", line 528, in <module>
+    pool = mp.Pool(mp.cpu_count(), initargs=(mp.RLock(),), initializer=tqdm.set_lock)
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/context.py", line 119, in Pool
+    return Pool(processes, initializer, initargs, maxtasksperchild,
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/pool.py", line 212, in __init__
+    self._repopulate_pool()
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/pool.py", line 303, in _repopulate_pool
+    return self._repopulate_pool_static(self._ctx, self.Process,
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/pool.py", line 326, in _repopulate_pool_static
+    w.start()
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/popen_fork.py", line 70, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
+Exception ignored in: <function Pool.__del__ at 0x2b6c2a1394c0>
+Traceback (most recent call last):
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/queues.py", line 362, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'

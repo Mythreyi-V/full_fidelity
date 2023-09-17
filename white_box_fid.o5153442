@@ -1,0 +1,99 @@
+queue started
+modules purged
+Executable path /home/n9455647/.conda/envs/conda_test/bin/python
+starting test
+Bucket 1
+80.6825635433197 seconds
+Average precision: 0.5625
+Average recall: 1.0
+Average correlation: 0.8546312955119266
+
+---------------------
+
+Bucket 2
+115.63071990013123 seconds
+Average precision: 0.5
+Average recall: 1.0
+Average correlation: 0.7403401194724214
+
+---------------------
+
+Bucket 3
+140.8427140712738 seconds
+Average precision: 0.3333333333333333
+Average recall: 1.0
+Average correlation: 0.7005934771895129
+
+---------------------
+
+Bucket 4
+165.75836324691772 seconds
+Average precision: 0.0
+Average recall: 0.0
+Average correlation: 0.6618433484291614
+
+---------------------
+
+Bucket 5
+172.05947351455688 seconds
+Average precision: 0.0
+Average recall: 0.0
+Average correlation: 0.6488392731377156
+
+---------------------
+
+Bucket 6
+172.81171560287476 seconds
+Average precision: 0.7291666666666666
+Average recall: 1.0
+Average correlation: 0.7004526793752424
+
+---------------------
+
+Bucket 7
+180.1567735671997 seconds
+Average precision: 0.0
+Average recall: 0.0
+Average correlation: 0.623808601527769
+
+---------------------
+
+Bucket 8
+157.72810292243958 seconds
+Average precision: 1.0
+Average recall: 1.0
+Average correlation: 0.6257637861586932
+
+---------------------
+
+Bucket 9
+169.70769023895264 seconds
+Average precision: 0.0
+Average recall: 0.0
+Average correlation: 0.6050643596910005
+
+---------------------
+
+Bucket 10
+167.78940439224243 seconds
+Average precision: 1.0
+Average recall: 0.3333333333333333
+Average correlation: 0.5957630595142811
+
+---------------------
+
+Bucket 11
+175.03473114967346 seconds
+Average precision: 0.9375
+Average recall: 0.5
+Average correlation: 0.5929703191154343
+
+---------------------
+
+Bucket 12
+test ended
+sepsis_cases prefix agg logit LIME
+PBS Job 5153442.pbs
+CPU time  : 03:49:39
+Wall time : 00:33:08
+Mem usage : 1214452kb

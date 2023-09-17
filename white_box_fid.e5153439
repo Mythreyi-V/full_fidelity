@@ -1,0 +1,71 @@
+RuntimeError: module compiled against API version 0xf but this version of numpy is 0xe
+  0%|          | 0/14 [00:00<?, ?it/s]
+  0%|          | 0/8 [00:00<?, ?it/s][A
+ 12%|█▎        | 1/8 [01:22<09:34, 82.12s/it][A
+ 75%|███████▌  | 6/8 [01:24<00:20, 10.42s/it][A100%|██████████| 8/8 [01:24<00:00, 10.51s/it]
+  7%|▋         | 1/14 [01:32<19:58, 92.21s/it]
+  0%|          | 0/8 [00:00<?, ?it/s][A
+ 12%|█▎        | 1/8 [01:50<12:55, 110.79s/it][A
+ 25%|██▌       | 2/8 [01:56<04:55, 49.26s/it] [A100%|██████████| 8/8 [01:56<00:00, 14.62s/it]
+ 14%|█▍        | 2/14 [03:38<22:30, 112.51s/it]
+  0%|          | 0/8 [00:00<?, ?it/s][A
+ 12%|█▎        | 1/8 [01:51<13:00, 111.53s/it][A
+ 25%|██▌       | 2/8 [01:55<04:48, 48.04s/it] [A
+ 50%|█████     | 4/8 [01:58<01:15, 18.92s/it][A100%|██████████| 8/8 [01:58<00:00, 14.79s/it]
+ 21%|██▏       | 3/14 [05:43<21:39, 118.11s/it]
+  0%|          | 0/8 [00:00<?, ?it/s][A
+ 12%|█▎        | 1/8 [02:20<16:21, 140.18s/it][A
+ 25%|██▌       | 2/8 [02:22<05:55, 59.25s/it] [A
+ 75%|███████▌  | 6/8 [02:24<00:27, 13.85s/it][A100%|██████████| 8/8 [02:24<00:00, 18.02s/it]
+ 29%|██▊       | 4/14 [08:16<21:59, 131.96s/it]
+  0%|          | 0/8 [00:00<?, ?it/s][A
+ 12%|█▎        | 1/8 [02:33<17:55, 153.70s/it][A100%|██████████| 8/8 [02:33<00:00, 19.21s/it] 
+ 36%|███▌      | 5/14 [10:57<21:19, 142.13s/it]
+  0%|          | 0/8 [00:00<?, ?it/s][A
+ 12%|█▎        | 1/8 [02:39<18:33, 159.06s/it][A
+ 75%|███████▌  | 6/8 [02:39<00:39, 19.65s/it] [A100%|██████████| 8/8 [02:39<00:00, 19.96s/it]
+ 43%|████▎     | 6/14 [13:43<20:02, 150.28s/it]
+  0%|          | 0/8 [00:00<?, ?it/s][A
+ 12%|█▎        | 1/8 [02:37<18:24, 157.72s/it][A
+ 25%|██▌       | 2/8 [02:44<06:54, 69.10s/it] [A100%|██████████| 8/8 [02:44<00:00, 20.60s/it]
+ 50%|█████     | 7/14 [16:29<18:09, 155.58s/it]
+  0%|          | 0/8 [00:00<?, ?it/s][A
+ 12%|█▎        | 1/8 [02:33<17:55, 153.61s/it][A
+ 38%|███▊      | 3/8 [02:38<03:27, 41.47s/it] [A100%|██████████| 8/8 [02:38<00:00, 19.76s/it]
+ 57%|█████▋    | 8/14 [19:15<15:53, 158.91s/it]
+  0%|          | 0/8 [00:00<?, ?it/s][A
+ 12%|█▎        | 1/8 [02:37<18:23, 157.59s/it][A100%|██████████| 8/8 [02:37<00:00, 19.70s/it] 
+ 64%|██████▍   | 9/14 [22:01<13:25, 161.02s/it]
+  0%|          | 0/8 [00:00<?, ?it/s][A
+ 12%|█▎        | 1/8 [02:36<18:17, 156.73s/it][A
+ 25%|██▌       | 2/8 [02:49<07:12, 72.11s/it] [A100%|██████████| 8/8 [02:49<00:00, 21.20s/it]
+ 71%|███████▏  | 10/14 [24:54<10:59, 164.89s/it]
+  0%|          | 0/8 [00:00<?, ?it/s][A
+ 12%|█▎        | 1/8 [02:46<19:28, 166.93s/it][A100%|██████████| 8/8 [02:46<00:00, 20.87s/it] 
+ 79%|███████▊  | 11/14 [27:47<08:21, 167.24s/it]
+  0%|          | 0/8 [00:00<?, ?it/s][A  0%|          | 0/8 [02:38<?, ?it/s]
+ 79%|███████▊  | 11/14 [30:26<08:18, 166.06s/it]
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "el_white_box_fidelity.py", line 394, in test_fidelity
+    exp_score, explanation_features = get_explanation_features(explainer, instance, cls, scaler, dataset_ref, classification, exp_iter, xai_method,
+  File "el_white_box_fidelity.py", line 354, in get_explanation_features
+    exp_score, feat_pos = get_lime_features(explainer, instance, cls, classification, exp_iter, feat_list, percentile)
+  File "el_white_box_fidelity.py", line 221, in get_lime_features
+    n = feat_list.index(feat_name)
+ValueError: '-0.00' is not in list
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "el_white_box_fidelity.py", line 534, in <module>
+    for result in tqdm(pool.imap(test_fidelity, [i for i in range(len(sample_instances))]), total = len(sample_instances)):
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/pool.py", line 868, in next
+    raise value
+ValueError: '-0.00' is not in list

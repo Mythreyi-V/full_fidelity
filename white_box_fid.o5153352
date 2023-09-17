@@ -1,0 +1,11 @@
+queue started
+modules purged
+Executable path /home/n9455647/.conda/envs/conda_test/bin/python
+starting test
+Bucket 1
+test ended
+bpic2012 prefix index xgboost LIME
+PBS Job 5153352.pbs
+CPU time  : 00:00:04
+Wall time : 00:02:02
+Mem usage : 255732kb
