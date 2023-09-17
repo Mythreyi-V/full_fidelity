@@ -1,9 +1,9 @@
-Case ID;Actual;Prefix Length;Prediction;"Prediction Probability;SHAP Precision;SHAP Recall;SHAP Correlation";MAPE Correctness;RMSE Correctness;R2 Correctness;Mode
-ANSD_7;1;7;0;"0.850501002004008;1.0;1.0;1.0";1.0;1.0;-1.0;baseline_max
-CFAE_7;0;7;0;"0.850501002004008;1.0;1.0;1.0";1.0;1.0;-1.0;baseline_max
-IKME_7;0;7;0;"0.850501002004008;1.0;1.0;1.0";1.0;1.0;-1.0;baseline_max
-KHUD_7;0;7;0;"0.850501002004008;1.0;1.0;1.0";1.0;1.0;-1.0;baseline_max
-MPRD_7;1;7;0;"0.850501002004008;1.0;1.0;1.0";1.0;1.0;-1.0;baseline_max
-QYWD_7;0;7;0;"0.850501002004008;1.0;1.0;1.0";1.0;1.0;-1.0;baseline_max
-TIGE_7;1;7;0;"0.850501002004008;1.0;1.0;1.0";1.0;1.0;-1.0;baseline_max
-XLHE_7;1;7;0;"0.850501002004008;1.0;1.0;1.0";1.0;1.0;-1.0;baseline_max
+Case ID;Actual;Prefix Length;Prediction;Prediction Probability;SHAP Precision;SHAP Recall;SHAP Correlation;MAPE Correctness;RMSE Correctness;R2 Correctness;Mode
+ANSD_7;1;7;0;0.850501002004008;1.0;1.0;1.0;1.0;1.0;-1.0;baseline_max
+CFAE_7;0;7;0;0.850501002004008;1.0;1.0;1.0;1.0;1.0;-1.0;baseline_max
+IKME_7;0;7;0;0.850501002004008;1.0;1.0;1.0;1.0;1.0;-1.0;baseline_max
+KHUD_7;0;7;0;0.850501002004008;1.0;1.0;1.0;1.0;1.0;-1.0;baseline_max
+MPRD_7;1;7;0;0.850501002004008;1.0;1.0;1.0;1.0;1.0;-1.0;baseline_max
+QYWD_7;0;7;0;0.850501002004008;1.0;1.0;1.0;1.0;1.0;-1.0;baseline_max
+TIGE_7;1;7;0;0.850501002004008;1.0;1.0;1.0;1.0;1.0;-1.0;baseline_max
+XLHE_7;1;7;0;0.850501002004008;1.0;1.0;1.0;1.0;1.0;-1.0;baseline_max

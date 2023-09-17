@@ -1,9 +1,9 @@
-Case ID;Actual;Prefix Length;Prediction;"Prediction Probability;SHAP Precision;SHAP Recall;SHAP Correlation";MAPE Correctness;RMSE Correctness;R2 Correctness;Mode
-1003_13;0;13;0;"0.6769759450171822;1.0;1.0;1.0";1.0;1.0;-1.0;baseline_max
-1018_13;0;13;0;"0.6769759450171822;1.0;1.0;1.0";1.0;1.0;-1.0;baseline_max
-1031_13;0;13;0;"0.6769759450171822;1.0;1.0;1.0";1.0;1.0;-1.0;baseline_max
-1059_13;1;13;0;"0.6769759450171822;1.0;1.0;1.0";1.0;1.0;-1.0;baseline_max
-1114_13;1;13;0;"0.6769759450171822;1.0;1.0;1.0";1.0;1.0;-1.0;baseline_max
-916_13;0;13;0;"0.6769759450171822;1.0;1.0;1.0";1.0;1.0;-1.0;baseline_max
-929_13;1;13;1;"0.995;1.0;1.0;1.0";;;;baseline_max
-941_13;1;13;1;"0.995;1.0;1.0;1.0";;;;baseline_max
+Case ID;Actual;Prefix Length;Prediction;Prediction Probability;SHAP Precision;SHAP Recall;SHAP Correlation;MAPE Correctness;RMSE Correctness;R2 Correctness;Mode
+1003_13;0;13;0;0.6769759450171822;1.0;1.0;1.0;1.0;1.0;-1.0;baseline_max
+1018_13;0;13;0;0.6769759450171822;1.0;1.0;1.0;1.0;1.0;-1.0;baseline_max
+1031_13;0;13;0;0.6769759450171822;1.0;1.0;1.0;1.0;1.0;-1.0;baseline_max
+1059_13;1;13;0;0.6769759450171822;1.0;1.0;1.0;1.0;1.0;-1.0;baseline_max
+1114_13;1;13;0;0.6769759450171822;1.0;1.0;1.0;1.0;1.0;-1.0;baseline_max
+916_13;0;13;0;0.6769759450171822;1.0;1.0;1.0;1.0;1.0;-1.0;baseline_max
+929_13;1;13;1;0.995;1.0;1.0;1.0;;;;baseline_max
+941_13;1;13;1;0.995;1.0;1.0;1.0;;;;baseline_max

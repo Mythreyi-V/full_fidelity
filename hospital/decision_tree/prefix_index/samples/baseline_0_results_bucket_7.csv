@@ -1,9 +1,9 @@
-Case ID;Actual;Prefix Length;Prediction;"Prediction Probability;SHAP Precision;SHAP Recall;SHAP Correlation";MAPE Correctness;RMSE Correctness;R2 Correctness;Mode
-ANSD_7;1;7;0;"0.850501002004008;1.0;1.0;1.0";;;;baseline_0
-CFAE_7;0;7;0;"0.850501002004008;1.0;1.0;1.0";;;;baseline_0
-IKME_7;0;7;0;"0.850501002004008;1.0;1.0;1.0";;;;baseline_0
-KHUD_7;0;7;0;"0.850501002004008;1.0;1.0;1.0";;;;baseline_0
-MPRD_7;1;7;0;"0.850501002004008;1.0;1.0;1.0";;;;baseline_0
-QYWD_7;0;7;0;"0.850501002004008;1.0;1.0;1.0";;;;baseline_0
-TIGE_7;1;7;0;"0.850501002004008;1.0;1.0;1.0";;;;baseline_0
-XLHE_7;1;7;0;"0.850501002004008;1.0;1.0;1.0";;;;baseline_0
+Case ID;Actual;Prefix Length;Prediction;Prediction Probability;SHAP Precision;SHAP Recall;SHAP Correlation;MAPE Correctness;RMSE Correctness;R2 Correctness;Mode
+ANSD_7;1;7;0;0.850501002004008;1.0;1.0;1.0;;;;baseline_0
+CFAE_7;0;7;0;0.850501002004008;1.0;1.0;1.0;;;;baseline_0
+IKME_7;0;7;0;0.850501002004008;1.0;1.0;1.0;;;;baseline_0
+KHUD_7;0;7;0;0.850501002004008;1.0;1.0;1.0;;;;baseline_0
+MPRD_7;1;7;0;0.850501002004008;1.0;1.0;1.0;;;;baseline_0
+QYWD_7;0;7;0;0.850501002004008;1.0;1.0;1.0;;;;baseline_0
+TIGE_7;1;7;0;0.850501002004008;1.0;1.0;1.0;;;;baseline_0
+XLHE_7;1;7;0;0.850501002004008;1.0;1.0;1.0;;;;baseline_0

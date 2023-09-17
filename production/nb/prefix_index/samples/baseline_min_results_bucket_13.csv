@@ -1,9 +1,9 @@
-"Case ID;Actual;Prefix Length;Prediction;Prediction Probability;SHAP Subset Stability;SHAP Weight Stability;SHAP Adjusted Weight Stability;LIME Subset Stability;LIME Weight Stability;LIME Adjusted Weight Stability;ACV Subset Stability;ACV Weight Stability;ACV Adjusted Weight Stability";MAPE Correctness;RMSE Correctness;R2 Correctness;Mode
-"Case17_13;1;13;1;1.0;1.0;0.9997989945330842;0.9997989945330842;;1.0;1.0;;1.0;1.0";;;;baseline_min
-"Case19_13;1;13;1;1.0;1.0;0.999891390831072;0.999891390831072;;1.0;1.0;;1.0;1.0";;;;baseline_min
-"Case21_13;1;13;1;1.0;1.0;0.9998307183981824;0.9998307183981824;;1.0;1.0;;1.0;1.0";;;;baseline_min
-"Case265_13;0;13;0;1.0;1.0;0.9997297186993;0.9997297186993;;1.0;1.0;;1.0;1.0";;;;baseline_min
-"Case269_13;0;13;0;1.0;1.0;0.9998858698755873;0.9998858698755873;;1.0;1.0;;1.0;1.0";0.017516104910615123;0.017516104910615123;-0.017516104910615123;baseline_min
-"Case273_13;0;13;0;1.0;1.0;0.9996880476176898;0.9996880476176898;;1.0;1.0;;1.0;1.0";;;;baseline_min
-"Case89_13;0;13;0;1.0;1.0;0.9997963237163792;0.9997963237163792;;1.0;1.0;;1.0;1.0";;;;baseline_min
-"Case95_13;1;13;1;1.0;1.0;0.9997941573728374;0.9997941573728374;;1.0;1.0;;1.0;1.0";;;;baseline_min
+Case ID;Actual;Prefix Length;Prediction;Prediction Probability;SHAP Subset Stability;SHAP Weight Stability;SHAP Adjusted Weight Stability;LIME Subset Stability;LIME Weight Stability;LIME Adjusted Weight Stability;ACV Subset Stability;ACV Weight Stability;ACV Adjusted Weight Stability;MAPE Correctness;RMSE Correctness;R2 Correctness;Mode
+Case17_13;1;13;1;1.0;1.0;0.9997989945330842;0.9997989945330842;;1.0;1.0;;1.0;1.0;;;;baseline_min
+Case19_13;1;13;1;1.0;1.0;0.999891390831072;0.999891390831072;;1.0;1.0;;1.0;1.0;;;;baseline_min
+Case21_13;1;13;1;1.0;1.0;0.9998307183981824;0.9998307183981824;;1.0;1.0;;1.0;1.0;;;;baseline_min
+Case265_13;0;13;0;1.0;1.0;0.9997297186993;0.9997297186993;;1.0;1.0;;1.0;1.0;;;;baseline_min
+Case269_13;0;13;0;1.0;1.0;0.9998858698755873;0.9998858698755873;;1.0;1.0;;1.0;1.0;0.017516104910615123;0.017516104910615123;-0.017516104910615123;baseline_min
+Case273_13;0;13;0;1.0;1.0;0.9996880476176898;0.9996880476176898;;1.0;1.0;;1.0;1.0;;;;baseline_min
+Case89_13;0;13;0;1.0;1.0;0.9997963237163792;0.9997963237163792;;1.0;1.0;;1.0;1.0;;;;baseline_min
+Case95_13;1;13;1;1.0;1.0;0.9997941573728374;0.9997941573728374;;1.0;1.0;;1.0;1.0;;;;baseline_min
