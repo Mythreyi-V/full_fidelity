@@ -1,6 +1,6 @@
 #!/bin/bash -l
 #PBS -N white_box_fid
-#PBS -l ncpus=10
+#PBS -l ncpus=4
 #PBS -l ngpus=0
 #PBS -l mem=160gb
 #PBS -l cpuarch=avx512

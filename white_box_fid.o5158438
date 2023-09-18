@@ -1,0 +1,11 @@
+queue started
+modules purged
+Executable path /home/n9455647/.conda/envs/conda_test/bin/python
+starting test
+Bucket 1
+test ended
+bpic2011 prefix agg xgboost LINDA
+PBS Job 5158438.pbs
+CPU time  : 00:00:02
+Wall time : 00:00:25
+Mem usage : 66240kb

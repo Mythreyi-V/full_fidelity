@@ -1,0 +1,12 @@
+queue started
+modules purged
+Executable path /home/n9455647/.conda/envs/conda_test/bin/python
+starting test
+Bucket 1
+Selecting Greedy Hill Climbing Algorithm
+test ended
+bpic2011 prefix agg nb LINDA
+PBS Job 5158444.pbs
+CPU time  : 00:06:31
+Wall time : 00:04:00
+Mem usage : 6579820kb
