@@ -1,9 +1,9 @@
-"Case ID;Actual;Prefix Length;Prediction;Prediction Probability;SHAP Subset Stability;SHAP Weight Stability;SHAP Adjusted Weight Stability;LIME Subset Stability;LIME Weight Stability;LIME Adjusted Weight Stability;ACV Subset Stability;ACV Weight Stability;ACV Adjusted Weight Stability";MAPE Correctness;RMSE Correctness;R2 Correctness;Mode
-"Case19_7;1;7;0;1.0;1.0;0.9847023930688222;0.9847023930688222;;1.0;1.0;;1.0;1.0";0.38318498555084973;0.38292384176242344;-0.39684265167451843;permutation
-"Case264_7;1;7;1;1.0;1.0;0.9668205155563178;0.9668205155563178;;1.0;1.0;;1.0;1.0";;;;permutation
-"Case63_7;1;7;1;1.0;1.0;0.9759744338515676;0.9759744338515676;;1.0;1.0;;1.0;1.0";;;;permutation
-"Case64_7;0;7;1;1.0;1.0;0.8622833045454485;0.8622833045454485;;1.0;1.0;;1.0;1.0";;;;permutation
-"Case6_7;1;7;0;1.0;1.0;0.9900997410802092;0.9900997410802092;;1.0;1.0;;1.0;1.0";0.38495263174627076;0.38495263174627076;-0.39941991099010987;permutation
-"Case89_7;0;7;0;1.0;1.0;0.8224257088931959;0.8224257088931959;;1.0;1.0;;1.0;1.0";;;;permutation
-"Case96_7;0;7;0;1.0;1.0;0.9836196087372842;0.9836196087372842;;1.0;1.0;;1.0;1.0";;;;permutation
-"Case99_7;0;7;1;1.0;1.0;0.8657314775867456;0.8657314775867456;;1.0;1.0;;1.0;1.0";;;;permutation
+Case ID;Actual;Prefix Length;Prediction;Prediction Probability;SHAP Subset Stability;SHAP Weight Stability;SHAP Adjusted Weight Stability;LIME Subset Stability;LIME Weight Stability;LIME Adjusted Weight Stability;ACV Subset Stability;ACV Weight Stability;ACV Adjusted Weight Stability;MAPE Correctness;RMSE Correctness;R2 Correctness;Mode
+Case19_7;1;7;0;1.0;1.0;0.9847023930688222;0.9847023930688222;;1.0;1.0;;1.0;1.0;0.38318498555084973;0.38292384176242344;-0.39684265167451843;permutation
+Case264_7;1;7;1;1.0;1.0;0.9668205155563178;0.9668205155563178;;1.0;1.0;;1.0;1.0;;;;permutation
+Case63_7;1;7;1;1.0;1.0;0.9759744338515676;0.9759744338515676;;1.0;1.0;;1.0;1.0;;;;permutation
+Case64_7;0;7;1;1.0;1.0;0.8622833045454485;0.8622833045454485;;1.0;1.0;;1.0;1.0;;;;permutation
+Case6_7;1;7;0;1.0;1.0;0.9900997410802092;0.9900997410802092;;1.0;1.0;;1.0;1.0;0.38495263174627076;0.38495263174627076;-0.39941991099010987;permutation
+Case89_7;0;7;0;1.0;1.0;0.8224257088931959;0.8224257088931959;;1.0;1.0;;1.0;1.0;;;;permutation
+Case96_7;0;7;0;1.0;1.0;0.9836196087372842;0.9836196087372842;;1.0;1.0;;1.0;1.0;;;;permutation
+Case99_7;0;7;1;1.0;1.0;0.8657314775867456;0.8657314775867456;;1.0;1.0;;1.0;1.0;;;;permutation

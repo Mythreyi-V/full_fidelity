@@ -1,9 +1,9 @@
-Case ID;Actual;Prefix Length;Prediction;"Prediction Probability;SHAP Precision;SHAP Recall;SHAP Correlation";MAPE Correctness;RMSE Correctness;R2 Correctness;Mode
-BTW_10;0;10;0;"0.9779264214046822;1.0;0.5;1.0";1.0;1.0;-1.0;baseline_max
-FGN_10;1;10;1;"0.9615384615384616;1.0;1.0;0.70713986917146";;;;baseline_max
-FSZD_10;0;10;0;"0.9779264214046822;1.0;0.5;1.0";1.0;1.0;-1.0;baseline_max
-HKWA_10;1;10;1;"0.9615384615384616;1.0;1.0;0.70713986917146";;;;baseline_max
-KJNC_10;1;10;1;"0.9615384615384616;1.0;1.0;0.70713986917146";;;;baseline_max
-ODNA_10;1;10;1;"0.9615384615384616;1.0;1.0;0.70713986917146";;;;baseline_max
-RMC_10;0;10;0;"0.9779264214046822;1.0;0.5;1.0";1.0;1.0;-1.0;baseline_max
-UNPD_10;0;10;0;"0.9779264214046822;1.0;0.5;1.0";1.0;1.0;-1.0;baseline_max
+Case ID;Actual;Prefix Length;Prediction;Prediction Probability;SHAP Precision;SHAP Recall;SHAP Correlation;MAPE Correctness;RMSE Correctness;R2 Correctness;Mode
+BTW_10;0;10;0;0.9779264214046822;1.0;0.5;1.0;1.0;1.0;-1.0;baseline_max
+FGN_10;1;10;1;0.9615384615384616;1.0;1.0;0.70713986917146;;;;baseline_max
+FSZD_10;0;10;0;0.9779264214046822;1.0;0.5;1.0;1.0;1.0;-1.0;baseline_max
+HKWA_10;1;10;1;0.9615384615384616;1.0;1.0;0.70713986917146;;;;baseline_max
+KJNC_10;1;10;1;0.9615384615384616;1.0;1.0;0.70713986917146;;;;baseline_max
+ODNA_10;1;10;1;0.9615384615384616;1.0;1.0;0.70713986917146;;;;baseline_max
+RMC_10;0;10;0;0.9779264214046822;1.0;0.5;1.0;1.0;1.0;-1.0;baseline_max
+UNPD_10;0;10;0;0.9779264214046822;1.0;0.5;1.0;1.0;1.0;-1.0;baseline_max
