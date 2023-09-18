@@ -216,7 +216,7 @@ def get_lime_features(explainer, instance, cls, classification, exp_iter, feat_l
             parts = feat.split("=")
         
         for part in parts:
-            if part.replace('.','').replace(' ','').isdigit()==False:
+            if part.replace('.','').replace(' ','').lstrip('-').isdigit()==False:
                 feat_name = part.replace(' ','')
         n = feat_list.index(feat_name)
         weights[n].append(exp[1])
