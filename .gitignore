@@ -161,3 +161,16 @@ hospital/decision_tree/prefix_index/train_data/train_data_bucket_7.csv
 hospital/decision_tree/prefix_index/train_data/train_data_bucket_8.csv
 hospital/decision_tree/prefix_index/train_data/train_data_bucket_9.csv
 hospital/decision_tree/single_agg/train_data/train_data_bucket_1.csv
+bpic2012/datasets/training_data.xes.xes.gz
+bpic2012/datasets/training_data.xes
+bpic2012/datasets/train_prefixes.xes.gz
+bpic2012/datasets/train_prefixes.mxml.gz
+bpic2012/datasets/ProM_LogStatistics.csv
+bpic2012/datasets/gen_log/RootPage.eps
+bpic2012/datasets/gen_log/gen_log.xes
+bpic2012/datasets/gen_log/gen_log.csv
+bpic2012/datasets/gen_log/event_log_config.json
+bpic2012/datasets/gen_log/event_log.xes
+bpic2012/datasets/gen_log/dpn.pnml
+bpic2012/datasets/gen_log/cpn.cpn
+bpic2012/datasets/full_labeled.xes.gz
