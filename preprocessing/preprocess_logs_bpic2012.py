@@ -3,9 +3,10 @@ import numpy as np
 import os
 import sys
 
-input_data_folder = "../orig_logs"
-output_data_folder = "../labeled_logs_csv_processed_2"
-filenames = ["bpic2012.csv"]
+#CHANGE
+input_data_folder = "../bpic2012/datasets/gen_log"
+output_data_folder = "../bpic2012/datasets/gen_log"
+filenames = ["gen_log.csv"]
 
 case_id_col = "Case ID"
 activity_col = "Activity"
@@ -50,6 +51,9 @@ def extract_timestamp_features(group):
 def get_open_cases(date):
     return sum((dt_first_last_timestamps["start_time"] <= date) & (dt_first_last_timestamps["end_time"] > date))
 
+def find_lifecycle(activity):
+    return activity.split("-")[-1]
+
 
 for filename in filenames:
     
@@ -57,6 +61,9 @@ for filename in filenames:
     data[timestamp_col] = pd.to_datetime(data[timestamp_col])
     data[resource_col] = data.sort_values(timestamp_col, ascending=True).groupby(case_id_col)[resource_col].transform(lambda grp: grp.fillna(method='ffill'))
     data.rename(columns=lambda x: x.replace('(case) ', ''), inplace=True)
+    
+    if "lifecycle:transition" not in data.columns:
+        data["lifecycle:transition"] = data[activity_col].apply(find_lifecycle)
 
     # add event duration
     data[timestamp_col] = pd.to_datetime(data[timestamp_col])
@@ -88,7 +95,7 @@ for filename in filenames:
     for activity in relevant_offer_events:
         dt_labeled = data.copy()
         dt_labeled[label_col] = neg_label
-        dt_labeled.ix[dt_labeled["last_o_activity"] == activity, label_col] = pos_label
+        dt_labeled[dt_labeled["last_o_activity"] == activity][label_col] = pos_label
         
         dt_labeled = dt_labeled[static_cols + dynamic_cols]
         
