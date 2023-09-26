@@ -1,0 +1,38 @@
+RuntimeError: module compiled against API version 0xf but this version of numpy is 0xe
+  0%|          | 0/14 [00:00<?, ?it/s]
+  0%|          | 0/8 [00:00<?, ?it/s][A  0%|          | 0/8 [157:40:40<?, ?it/s]
+  0%|          | 0/14 [157:40:41<?, ?it/s]
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "el_white_box_fidelity.py", line 412, in test_fidelity
+    exp_score, explanation_features = get_explanation_features(explainer, instance, cls, scaler, dataset_ref, classification, exp_iter, xai_method,
+  File "el_white_box_fidelity.py", line 375, in get_explanation_features
+    exp_score, feat_pos = get_linda_features(instance, cls, scaler, dataset, exp_iter, feat_list, percentile)
+  File "el_white_box_fidelity.py", line 250, in get_linda_features
+    [bn, inference, infoBN] = generate_BN_explanations(instance, label_lst, feat_list, "Result",
+  File "/mnt/home/n9455647/full_fidelity/learning.py", line 691, in generate_BN_explanations
+    bn, infoBN, essencGraph = learnBN( path_to_permutations )
+  File "/mnt/home/n9455647/full_fidelity/learning.py", line 542, in learnBN
+    infoBN = gnb.getInformation( bn )
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/site-packages/pyAgrum/lib/notebook.py", line 698, in getInformation
+    return _reprInformation(bn, evs, size, cmap, asString=True)
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/site-packages/pyAgrum/lib/notebook.py", line 640, in _reprInformation
+    ie.makeInference()
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/site-packages/pyAgrum/pyAgrum.py", line 13476, in makeInference
+    return _pyAgrum.LazyPropagation_makeInference(self)
+Exception: std::bad_alloc
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "el_white_box_fidelity.py", line 552, in <module>
+    for result in tqdm(pool.imap(test_fidelity, [i for i in range(len(sample_instances))]), total = len(sample_instances)):
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/pool.py", line 868, in next
+    raise value
+Exception: std::bad_alloc

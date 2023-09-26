@@ -1,0 +1,11 @@
+queue started
+modules purged
+Executable path /home/n9455647/.conda/envs/conda_test/bin/python
+starting test
+Bucket 1
+test ended
+sepsis_cases prefix agg decision_tree LINDA
+PBS Job 5162407.pbs
+CPU time  : 00:00:01
+Wall time : 00:01:07
+Mem usage : 37124kb
