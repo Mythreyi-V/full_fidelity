@@ -1,0 +1,18 @@
+queue started
+modules purged
+Executable path /home/n9455647/.conda/envs/conda_test/bin/python
+starting test
+Bucket 1
+3369.339314222336 seconds
+Average precision: 1.0
+Average recall: 0.5636363636363636
+Average correlation: 0.045821624561966125
+
+---------------------
+
+test ended
+hospital single agg decision_tree LIME
+PBS Job 5217727.pbs
+CPU time  : 03:49:52
+Wall time : 01:03:42
+Mem usage : 53510372kb

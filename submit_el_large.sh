@@ -34,7 +34,7 @@ python -c "import sys; print('Executable path', sys.executable)"
 #python -m pip freeze > requirements.txt
 
 echo "starting test"
-python3 el_white_box_fidelity.py $dataset $bucketing $encoding $model $xai
+python3 el_white_box_fidelity.py $dataset $bucketing $encoding $model $xai $bucket
 echo "test ended"
 echo $dataset $bucketing $encoding $model $xai
 

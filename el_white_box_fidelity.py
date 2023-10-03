@@ -444,6 +444,7 @@ results_dir = "results"
 bucket_method = sys.argv[2]
 cls_encoding = sys.argv[3]
 cls_method = sys.argv[4]
+start_bucket = int(sys.argv[6])
 
 classification = True
 
@@ -481,7 +482,7 @@ for dataset_name in datasets:
                                                                     (dataset_ref, cls_method, method_name)))])
         dataset_manager = DatasetManager(dataset_name)
 
-        for bucket in tqdm(range(num_buckets)):
+        for bucket in tqdm(range(start_bucket,num_buckets)):
             bucketID = bucket+1
             print ('Bucket', bucketID)
 
