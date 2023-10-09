@@ -1,0 +1,682 @@
+queue started
+modules purged
+Executable path /home/n9455647/.conda/envs/conda_test/bin/python
+starting test
+Bucket 1
+10910.432643413544 seconds
+Average precision: 0.017379679144385027
+Average recall: 1.0
+Average correlation: 0.0
+
+---------------------
+
+Bucket 2
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+12707.513477563858 seconds
+Average precision: 0.005263157894736842
+Average recall: 1.0
+Average correlation: 0.0
+
+---------------------
+
+Bucket 3
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+14304.596528053284 seconds
+Average precision: 0.005291005291005291
+Average recall: 1.0
+Average correlation: 0.0
+
+---------------------
+
+Bucket 4
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+18767.87414741516 seconds
+Average precision: 0.017287234042553192
+Average recall: 1.0
+Average correlation: 0.0
+
+---------------------
+
+Bucket 5
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+17070.251056432724 seconds
+Average precision: 0.005829015544041451
+Average recall: 1.0
+Average correlation: 0.0
+
+---------------------
+
+Bucket 6
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+136865.67187023163 seconds
+Average precision: 0.009950248756218905
+Average recall: 1.0
+Average correlation: 0.0
+
+---------------------
+
+Bucket 7
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+123754.39282345772 seconds
+Average precision: 0.005514705882352941
+Average recall: 1.0
+Average correlation: 0.0
+
+---------------------
+
+Bucket 8
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+156076.0116610527 seconds
+Average precision: 0.004694835680751174
+Average recall: 1.0
+Average correlation: 0.0
+
+---------------------
+
+Bucket 9
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+139731.71474933624 seconds
+Average precision: 0.019736842105263157
+Average recall: 1.0
+Average correlation: 0.0
+
+---------------------
+
+Bucket 10
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+161283.48689556122 seconds
+Average precision: 0.004739336492890996
+Average recall: 1.0
+Average correlation: 0.0
+
+---------------------
+
+Bucket 11
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+172163.80468916893 seconds
+Average precision: 0.004878048780487805
+Average recall: 1.0
+Average correlation: 0.0
+
+---------------------
+
+Bucket 12
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+160108.0291941166 seconds
+Average precision: 0.005232558139534884
+Average recall: 1.0
+Average correlation: 0.0
+
+---------------------
+
+Bucket 13
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+141355.53773665428 seconds
+Average precision: 0.012559808612440191
+Average recall: 1.0
+Average correlation: 0.0
+
+---------------------
+
+Bucket 14
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+113016.08518409729 seconds
+Average precision: 0.006127450980392157
+Average recall: 1.0
+Average correlation: 0.0
+
+---------------------
+
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+Selecting Greedy Hill Climbing Algorithm
+test ended
+sepsis_cases prefix agg nb LINDA
+PBS Job 5162412.pbs
+CPU time  : 1529:53:21
+Wall time : 382:51:07
+Mem usage : 6707260kb
