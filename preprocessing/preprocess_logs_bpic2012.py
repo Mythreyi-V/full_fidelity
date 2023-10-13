@@ -6,7 +6,7 @@ import sys
 #CHANGE
 input_data_folder = "../bpic2012/datasets/gen_log"
 output_data_folder = "../bpic2012/datasets/gen_log"
-filenames = ["gen_log.csv"]
+filenames = ["gen_log_hrs.csv"]
 
 case_id_col = "Case ID"
 activity_col = "Activity"
