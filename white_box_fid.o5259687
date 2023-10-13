@@ -1,0 +1,10 @@
+queue started
+modules purged
+Executable path /home/n9455647/.conda/envs/conda_test/bin/python
+starting test
+test ended
+sepsis_cases single agg nb LINDA
+PBS Job 5259687.pbs
+CPU time  : 00:00:05
+Wall time : 00:01:42
+Mem usage : 829104kb

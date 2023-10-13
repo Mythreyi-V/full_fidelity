@@ -1,10 +1,10 @@
 #!/bin/bash -l
 #PBS -N white_box_fid
-#PBS -l ncpus=10
+#PBS -l ncpus=8
 #PBS -l ngpus=0
-#PBS -l mem=20gb
+#PBS -l mem=60gb
 #PBS -l cpuarch=avx512
-#PBS -l walltime=336:00:00
+#PBS -l walltime=500:00:00
 
 cd $PBS_O_WORKDIR
 echo "queue started"
@@ -34,7 +34,7 @@ python -c "import sys; print('Executable path', sys.executable)"
 #python -m pip freeze > requirements.txt
 
 echo "starting test"
-python3 el_white_box_fidelity.py $dataset $bucketing $encoding $model $xai
+python3 el_white_box_fidelity.py $dataset $bucketing $encoding $model $xai $start_bucket
 echo "test ended"
 echo $dataset $bucketing $encoding $model $xai
 
