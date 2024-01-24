@@ -1,7 +1,0 @@
-RuntimeError: module compiled against API version 0xf but this version of numpy is 0xe
-  0%|          | 0/26 [00:00<?, ?it/s]  4%|▍         | 1/26 [00:53<22:22, 53.72s/it] 62%|██████▏   | 16/26 [00:53<00:24,  2.40s/it]100%|██████████| 26/26 [00:54<00:00,  2.11s/it]
-Exception ignored in: <function Pool.__del__ at 0x2af0d2c2a160>
-Traceback (most recent call last):
-  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
-  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/queues.py", line 362, in put
-AttributeError: 'NoneType' object has no attribute 'dumps'

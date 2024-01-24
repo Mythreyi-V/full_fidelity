@@ -1,4 +1,0 @@
-  File "tab_white_box_fidelity.py", line 31
-    def get_reg_features(cls; percentile):
-                            ^
-SyntaxError: invalid syntax

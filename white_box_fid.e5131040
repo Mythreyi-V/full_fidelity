@@ -1,79 +1,0 @@
-RuntimeError: module compiled against API version 0xf but this version of numpy is 0xe
-  0%|          | 0/100 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:38, 38.31s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:43, 43.53s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:43, 43.87s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:43, 43.94s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:43, 43.99s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:44, 44.38s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:44, 44.46s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:44, 44.69s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:44, 44.62s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:45, 45.03s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:44, 44.91s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:44, 44.94s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:44, 44.99s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:45, 45.19s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:45, 45.31s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:45, 45.51s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:45, 45.87s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:45, 45.79s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:45, 45.90s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:46, 46.13s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:45, 45.99s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:46, 46.07s/it]               Exact explainer: 2it [00:46, 46.06s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:46, 46.17s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:46, 46.29s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:46, 46.33s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:46, 46.19s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:46, 46.24s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:46, 46.15s/it]               Exact explainer: 2it [00:46, 46.16s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:46, 46.30s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:46, 46.14s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:46, 46.15s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:46, 46.18s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:46, 46.26s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:46, 46.36s/it]               Exact explainer: 2it [00:46, 46.35s/it]               Exact explainer: 2it [00:46, 46.20s/it]               Exact explainer: 2it [00:46, 46.24s/it]               Exact explainer: 2it [00:46, 46.24s/it]                 1%|          | 1/100 [00:46<1:16:38, 46.45s/it]Exact explainer: 2it [00:46, 46.22s/it]               Exact explainer: 2it [00:46, 46.23s/it]               Exact explainer: 2it [00:46, 46.24s/it]               Exact explainer: 2it [00:46, 46.26s/it]               Exact explainer: 2it [00:46, 46.28s/it]               Exact explainer: 2it [00:46, 46.28s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:46, 46.23s/it]               Exact explainer: 2it [00:46, 46.27s/it]               Exact explainer: 2it [00:46, 46.44s/it]               Exact explainer: 2it [00:46, 46.25s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:46, 46.27s/it]               Exact explainer: 2it [00:46, 46.25s/it]               Exact explainer: 2it [00:46, 46.26s/it]               Exact explainer: 2it [00:46, 46.32s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:46, 46.33s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:46, 46.38s/it]               Exact explainer: 2it [00:46, 46.32s/it]               Exact explainer: 2it [00:46, 46.32s/it]               Exact explainer: 2it [00:46, 46.39s/it]               Exact explainer: 2it [00:46, 46.28s/it]               Exact explainer: 2it [00:46, 46.37s/it]               Exact explainer: 2it [00:46, 46.33s/it]               Exact explainer: 2it [00:46, 46.31s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:46, 46.37s/it]               Exact explainer: 2it [00:46, 46.33s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:46, 46.51s/it]               Exact explainer: 2it [00:46, 46.38s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:46, 46.53s/it]               Exact explainer: 2it [00:46, 46.33s/it]               Exact explainer: 2it [00:46, 46.37s/it]               Exact explainer: 2it [00:46, 46.39s/it]               Exact explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Exact explainer: 2it [00:46, 46.42s/it]                 5%|▌         | 5/100 [00:46<11:02,  6.97s/it]  100%|██████████| 100/100 [00:46<00:00,  2.14it/s]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Exception ignored in: <function Pool.__del__ at 0x2b9a9675c160>
-Traceback (most recent call last):
-  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
-  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/queues.py", line 362, in put
-AttributeError: 'NoneType' object has no attribute 'dumps'

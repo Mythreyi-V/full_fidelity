@@ -1,24 +1,0 @@
-RuntimeError: module compiled against API version 0xf but this version of numpy is 0xe
-  0%|          | 0/1 [00:00<?, ?it/s]
-  0%|          | 0/110 [00:00<?, ?it/s][AException in thread Thread-2:
-Traceback (most recent call last):
-  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/threading.py", line 932, in _bootstrap_inner
-    self.run()
-  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/threading.py", line 870, in run
-    self._target(*self._args, **self._kwargs)
-  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/pool.py", line 513, in _handle_workers
-    cls._maintain_pool(ctx, Process, processes, pool, inqueue,
-  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/pool.py", line 337, in _maintain_pool
-    Pool._repopulate_pool_static(ctx, Process, processes, pool,
-  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/pool.py", line 326, in _repopulate_pool_static
-    w.start()
-  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/process.py", line 121, in start
-    self._popen = self._Popen(self)
-  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/context.py", line 277, in _Popen
-    return Popen(process_obj)
-  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/popen_fork.py", line 19, in __init__
-    self._launch(process_obj)
-  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/popen_fork.py", line 70, in _launch
-    self.pid = os.fork()
-OSError: [Errno 12] Cannot allocate memory
-=>> PBS: job killed: walltime 1209654 exceeded limit 1209600

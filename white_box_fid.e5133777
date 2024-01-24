@@ -1,1 +1,0 @@
-/var/spool/PBS/mom_priv/jobs/5133777.pbs.SC: line 37: 72219 Segmentation fault      (core dumped) python3 tab_white_box_fidelity.py $dataset $model $xai

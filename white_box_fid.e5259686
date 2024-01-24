@@ -1,10 +1,0 @@
-RuntimeError: module compiled against API version 0xf but this version of numpy is 0xe
-0it [00:00, ?it/s]0it [00:00, ?it/s]
-Traceback (most recent call last):
-  File "el_stable_fidelity.py", line 579, in <module>
-    pd.concat(all_results).to_csv(os.path.join(PATH,"%s/%s/%s/samples/results.csv") % (dataset_ref, cls_method, method_name), 
-  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/site-packages/pandas/core/reshape/concat.py", line 274, in concat
-    op = _Concatenator(
-  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/site-packages/pandas/core/reshape/concat.py", line 331, in __init__
-    raise ValueError("No objects to concatenate")
-ValueError: No objects to concatenate

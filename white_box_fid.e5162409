@@ -1,36 +1,0 @@
-RuntimeError: module compiled against API version 0xf but this version of numpy is 0xe
-  0%|          | 0/1 [00:00<?, ?it/s]
-  0%|          | 0/112 [00:00<?, ?it/s][A  0%|          | 0/112 [454:06:13<?, ?it/s]
-  0%|          | 0/1 [454:06:15<?, ?it/s]
-multiprocessing.pool.RemoteTraceback: 
-"""
-Traceback (most recent call last):
-  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/pool.py", line 125, in worker
-    result = (True, func(*args, **kwds))
-  File "el_white_box_fidelity.py", line 412, in test_fidelity
-    exp_score, explanation_features = get_explanation_features(explainer, instance, cls, scaler, dataset_ref, classification, exp_iter, xai_method,
-  File "el_white_box_fidelity.py", line 375, in get_explanation_features
-    exp_score, feat_pos = get_linda_features(instance, cls, scaler, dataset, exp_iter, feat_list, percentile)
-  File "el_white_box_fidelity.py", line 250, in get_linda_features
-    [bn, inference, infoBN] = generate_BN_explanations(instance, label_lst, feat_list, "Result",
-  File "/mnt/home/n9455647/full_fidelity/learning.py", line 684, in generate_BN_explanations
-    df_discr.to_csv( path_to_permutations, index=False)
-  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/site-packages/pandas/core/generic.py", line 3167, in to_csv
-    formatter.save()
-  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/site-packages/pandas/io/formats/csvs.py", line 185, in save
-    f, handles = get_handle(
-  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/site-packages/pandas/io/common.py", line 493, in get_handle
-    f = open(path_or_buf, mode, encoding=encoding, errors=errors, newline="")
-PermissionError: [Errno 1] Operation not permitted: '/mnt/home/n9455647/full_fidelity/sepsis_cases/logit/single_agg/feature_permutations/sepsis_cases/true_positives/0_permutations.csv'
-"""
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "el_white_box_fidelity.py", line 552, in <module>
-    #recall, precision, corr = zip(*pool.map(test_fidelity, [i for i in range(len(test_x))]))
-  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/site-packages/tqdm/std.py", line 1195, in __iter__
-    for obj in iterable:
-  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/pool.py", line 868, in next
-    raise value
-PermissionError: [Errno 1] Operation not permitted: '/mnt/home/n9455647/full_fidelity/sepsis_cases/logit/single_agg/feature_permutations/sepsis_cases/true_positives/0_permutations.csv'

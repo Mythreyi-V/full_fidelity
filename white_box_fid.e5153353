@@ -1,5 +1,0 @@
-RuntimeError: module compiled against API version 0xf but this version of numpy is 0xe
-Traceback (most recent call last):
-  File "el_white_box_fidelity.py", line 462, in <module>
-    num_buckets = len([name for name in os.listdir(os.path.join(PATH,'%s/%s/%s/pipelines'% 
-FileNotFoundError: [Errno 2] No such file or directory: '/mnt/home/n9455647/full_fidelity/bpic2012/logitt/prefix_index/pipelines'

@@ -1,5 +1,0 @@
-RuntimeError: module compiled against API version 0xf but this version of numpy is 0xe
-Traceback (most recent call last):
-  File "el_white_box_fidelity.py", line 462, in <module>
-    dataset_manager = DatasetManager(dataset_name)
-NameError: name 'DatasetManager' is not defined

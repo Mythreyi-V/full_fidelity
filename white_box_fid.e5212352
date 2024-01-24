@@ -1,5 +1,0 @@
-RuntimeError: module compiled against API version 0xf but this version of numpy is 0xe
-Traceback (most recent call last):
-  File "el_white_box_fidelity.py", line 447, in <module>
-    start_bucket = int(sys.argv[5])
-ValueError: invalid literal for int() with base 10: 'LIME'

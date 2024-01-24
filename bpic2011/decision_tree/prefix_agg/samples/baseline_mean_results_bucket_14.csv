@@ -1,9 +1,0 @@
-Case ID;Actual;Prefix Length;Prediction;Prediction Probability;SHAP Precision;SHAP Recall;SHAP Correlation;MAPE Correctness;RMSE Correctness;R2 Correctness;Mode
-1011_14;0;14;0;0.6808510638297872;1.0;1.0;1.0;;;;baseline_mean
-1015_14;0;14;0;0.6808510638297872;1.0;1.0;1.0;;;;baseline_mean
-1049_14;1;14;1;1.0;1.0;1.0;1.0;1.0;1.0;-1.0;baseline_mean
-1053_14;0;14;0;0.6808510638297872;1.0;1.0;1.0;;;;baseline_mean
-1080_14;0;14;0;0.6808510638297872;1.0;1.0;1.0;;;;baseline_mean
-1127_14;1;14;1;1.0;1.0;1.0;1.0;1.0;1.0;-1.0;baseline_mean
-938_14;1;14;1;1.0;1.0;1.0;1.0;1.0;1.0;-1.0;baseline_mean
-960_14;1;14;1;1.0;1.0;1.0;1.0;1.0;1.0;-1.0;baseline_mean

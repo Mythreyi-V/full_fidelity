@@ -1,79 +1,0 @@
-RuntimeError: module compiled against API version 0xf but this version of numpy is 0xe
-  0%|          | 0/100 [00:00<?, ?it/s]Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:37, 37.96s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:37, 37.71s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:37, 37.79s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:38, 38.00s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:38, 38.00s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:38, 38.07s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:38, 38.83s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:38, 38.79s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:38, 38.84s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:38, 38.83s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:38, 38.92s/it]               Permutation explainer: 2it [00:39, 39.03s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:39, 39.03s/it]               Permutation explainer: 2it [00:39, 39.01s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:39, 39.11s/it]               Permutation explainer: 2it [00:39, 39.17s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:39, 39.24s/it]               Permutation explainer: 2it [00:39, 39.23s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:39, 39.21s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:39, 39.20s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:39, 39.31s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:39, 39.49s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:39, 39.51s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:39, 39.61s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:39, 39.59s/it]                 1%|          | 1/100 [00:40<1:06:25, 40.26s/it]Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.13s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:39, 39.83s/it]               Permutation explainer: 2it [00:39, 39.85s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:39, 39.92s/it]               Permutation explainer: 2it [00:39, 39.88s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.04s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.08s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.06s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.17s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.16s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.21s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.23s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.28s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.31s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.31s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.35s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.41s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.43s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.73s/it]               Permutation explainer: 2it [00:40, 40.45s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.48s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.50s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.52s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.66s/it]               Permutation explainer: 2it [00:40, 40.53s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.50s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.82s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.64s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.60s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.56s/it]               Permutation explainer: 2it [00:40, 40.85s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.83s/it]               Permutation explainer: 2it [00:40, 40.55s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 41.00s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.59s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.63s/it]               Permutation explainer: 2it [00:41, 41.01s/it]               Permutation explainer: 2it [00:40, 40.64s/it]               Permutation explainer: 2it [00:40, 40.63s/it]               Permutation explainer: 2it [00:40, 40.59s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.65s/it]               Permutation explainer: 2it [00:40, 40.68s/it]               Permutation explainer: 2it [00:40, 40.66s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.94s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.75s/it]               Permutation explainer: 2it [00:40, 40.78s/it]               Permutation explainer: 100%|██████████| 1/1 [00:00<?, ?it/s]Permutation explainer: 2it [00:40, 40.81s/it]                 2%|▏         | 2/100 [00:42<29:40, 18.17s/it]    3%|▎         | 3/100 [00:43<16:10, 10.01s/it] 73%|███████▎  | 73/100 [00:43<00:05,  4.62it/s] 94%|█████████▍| 94/100 [00:43<00:00,  6.34it/s]100%|██████████| 100/100 [00:43<00:00,  2.28it/s]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Exception ignored in: <function Pool.__del__ at 0x2b2beb8d2160>
-Traceback (most recent call last):
-  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
-  File "/home/n9455647/.conda/envs/conda_test/lib/python3.8/multiprocessing/queues.py", line 362, in put
-AttributeError: 'NoneType' object has no attribute 'dumps'
