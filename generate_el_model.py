@@ -1,19 +1,9 @@
-#!/usr/bin/env python
-# coding: utf-8
+## TRAINING FOR PPA MODELS
 
-# In[1]:
-
-
-#from google.colab import drive
-#drive.mount('/content/drive')
 import sys
 import os
 PATH = os.getcwd()
 sys.path.append(PATH)
-
-
-# In[2]:
-
 
 import EncoderFactory
 from DatasetManager import DatasetManager
@@ -38,30 +28,13 @@ import pickle
 from collections import defaultdict
 from tqdm import notebook
 
-#from sklearn.ensemble import RandomForestClassifier
 import xgboost as xgb
 from sklearn.linear_model import LogisticRegression
 from sklearn.naive_bayes import GaussianNB
-#from sklearn.svm import SVC
-#import catboost
 from sklearn.tree import DecisionTreeClassifier
-
-# from tensorflow.keras.backend import print_tensor
-# from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping
-# from keras.layers.core import Dense, Activation, Dropout
-# from keras.preprocessing import sequence
-# from keras.models import Sequential, Model, load_model
-# from keras.layers import Dense, Embedding, Flatten, Input
-# from keras.layers import LSTM
-# from keras.optimizers import Nadam, RMSprop
-# from tensorflow.keras.utils import plot_model
-# from keras.layers.normalization import BatchNormalization
 
 import seaborn as sns
 
-#import lime
-#import lime.lime_tabular
-#from lime import submodular_pick;
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -69,10 +42,7 @@ import matplotlib.pyplot as plt
 
 import joblib
 
-
-# In[3]:
-
-
+#If dataset classes are not balanced, then downsample and train
 def train_with_unbalanced_data(X_train, X_test, feature_combiner, dataset_manager, current_args, scaler = None, iterations = 10):
   all_pipelines = []
   all_cls = []
@@ -136,11 +106,7 @@ def train_with_unbalanced_data(X_train, X_test, feature_combiner, dataset_manage
     test_all_grouped = dt_test_bucket.groupby(dataset_manager.case_id_col)
     y_test = [dataset_manager.get_label_numeric(group) for _,group in test_all_grouped]
     
-    #print(np.unique(y_train_resampled, return_counts=True))
-    #print(np.unique(y_test, return_counts=True))
-
     preds = pipeline.predict(X_test)
-    #print(preds)
     acc = f1_score(y_test, preds)
 
     #save to list
@@ -158,10 +124,6 @@ def train_with_unbalanced_data(X_train, X_test, feature_combiner, dataset_manage
   cls = all_cls[index]
 
   return pipeline, cls
-
-
-# In[4]:
-
 
 dataset_ref = sys.argv[1]
 params_dir = PATH + "/params/"
@@ -213,10 +175,6 @@ if not os.path.exists(os.path.join(params_dir)):
     
 print(datasets)
 
-
-# In[5]:
-
-
 for dataset_name in datasets:
     
            
@@ -251,7 +209,6 @@ for dataset_name in datasets:
     for ii in range(n_iter):
         # create prefix logs
         print("Creating logs...")
-#           dt_train_prefixes = dataset_manager.generate_prefix_data(train, min_prefix_length, max_prefix_length, gap)
 
         # Bucketing prefixes based on control flow
         print("bucketing prefixes...")
@@ -358,11 +315,9 @@ for dataset_name in datasets:
                                                  % (dataset_ref, cls_method, method_name, bucket)), index=False)
                     
                     if len(dataset_manager.get_case_ids(dataset_manager.balance_data(dt_test_bucket))) < 50:
-                        #print("Cases in test data:", len(dataset_manager.get_case_ids(dt_test_bucket)))
                         choose_from = pd.concat([dt_train_bucket, dt_test_bucket])
                         
                     else:
-                        #print(len(data_manager.get_case_ids(dt_test_bucket)), "cases in test data")
                         choose_from = dt_test_bucket
                         
                     all_y = dataset_manager.get_label_numeric(choose_from)
@@ -372,7 +327,6 @@ for dataset_name in datasets:
                     pos_cases = [case_ids[i] for i in range(len(case_ids)) if all_y[i] == 1]
 
                     sample_length = min(len(neg_cases), len(pos_cases), 4)
-                    #print(len(neg_cases),len(pos_cases))
 
                     neg_cases = random.sample(neg_cases, sample_length)
                     pos_cases = random.sample(pos_cases, sample_length)

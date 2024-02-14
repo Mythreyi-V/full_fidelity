@@ -1,3 +1,5 @@
+## EXTRACTS CASE AND INTER-CASE FEATURES FOR EVENT LOGS
+ 
 import sys
 
 import dataset_confs

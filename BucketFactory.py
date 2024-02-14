@@ -1,3 +1,5 @@
+##CONTROLS BUCKETING FOR EVENT LOGS
+
 import EncoderFactory
 
 from bucketers.ClusterBasedBucketer import ClusterBasedBucketer

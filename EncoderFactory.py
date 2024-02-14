@@ -1,3 +1,5 @@
+## CONTROLS TRACE ENCODING FOR EVENT LOGS
+
 from transformers.StaticTransformer import StaticTransformer
 from transformers.LastStateTransformer import LastStateTransformer
 from transformers.AggregateTransformer import AggregateTransformer

@@ -1,3 +1,6 @@
+##EVALUATIION OF PERTURBATION TECHNIQUES USING A TRANSPARENT MODEL
+##USING EVENT LOGS.
+
 import pandas as pd
 import numpy as np
 
@@ -37,6 +40,7 @@ import seaborn as sns
 import multiprocessing as mp
 
 
+#Extract ranks from decision tree
 def get_tree_features(cls, instance):
     tree = cls.tree_
     lvl = 0
@@ -62,12 +66,11 @@ def get_tree_features(cls, instance):
     n = len(feats)
     for i in feats:
         feat_pos[i]+=n
-#        feat_pos[i]+=1
         n=n-1
-    #feat_pos = set(feats)
     
     return feat_pos
 
+#Extract coefficients from logistic regression model
 def get_reg_features(cls):
 
     og_coef = cls.coef_
@@ -75,14 +78,9 @@ def get_reg_features(cls):
         og_coef = og_coef[0]
     
     coef = [abs(val) for val in og_coef]
-    
-#     bins = pd.cut(coef, 4, retbins = True, duplicates = "drop")
-#     q1_min = bins[1][-2]
-    
-#     feat_pos = [i for i in range(len(coef)) if coef[i] > q1_min]
-    
     return coef
 
+#Rank features in Naive Bayes model
 def get_nb_features(cls, instance):
     pred = cls.predict(instance.reshape(1, -1))
     means = cls.theta_[pred][0]
@@ -102,6 +100,7 @@ def get_nb_features(cls, instance):
     
     return np.abs(likelihoods)
 
+#Get rankings from models
 def get_true_rankings(cls, instance, cls_method, X_train, feat_list):
     if cls_method == "decision_tree":
         feat_pos = get_tree_features(cls, instance)
@@ -114,6 +113,7 @@ def get_true_rankings(cls, instance, cls_method, X_train, feat_list):
         
     return feat_pos
 
+#Perturb a continuous feature
 def permute_instance(instance, i, perm_iter = 100, min_i = [0], max_i=[1], mean_i=[0], mode="permutation"):
             
     permutations = np.array([instance]*perm_iter).transpose()
@@ -137,6 +137,7 @@ def permute_instance(instance, i, perm_iter = 100, min_i = [0], max_i=[1], mean_
 
     return permutations
 
+#Perturb a discrete feature
 def cycle_values(instance, i, perm_iter = 100, min_i = [0], max_i=[1], mean_i=[0], unique_values=[[0,1]], mode="permutation"):
 
     permutations = np.array([instance]*perm_iter).transpose()
@@ -159,77 +160,7 @@ def cycle_values(instance, i, perm_iter = 100, min_i = [0], max_i=[1], mean_i=[0
 
     return permutations
 
-def permute_multiple(instance, i, columns, col_dict, perm_iter=100, min_i = [0], max_i=[1], mean_i=[0],unique_values=[[0,1]], mode="permutation"):
-    
-    cats = []
-    nums = []
-    
-    if col_dict["discrete"]!=None:
-        cats = [int(col) for col in i if columns[col] in col_dict["discrete"]]
-    if col_dict["continuous"]!=None:
-        nums = [int(col) for col in i if columns[col] in col_dict["continuous"]]
-    
-    cat_permutations = False
-    num_permutations = False
-    
-    if len(cats)>0:
-        mins = min_i[columns[cats]].values
-        maxes = max_i[columns[cats]].values
-        means = mean_i[columns[cats]].values
-        uniques = unique_values[columns[cats]].values
-        cat_permutations = cycle_values(instance, cats, perm_iter, mins, maxes, 
-                                  means, uniques, mode) 
-    if len(nums)>0:
-        mins = min_i[columns[nums]].values
-        maxes = max_i[columns[nums]].values
-        means = mean_i[columns[nums]].values
-        num_permutations = permute_instance(instance, nums, perm_iter, mins, maxes, 
-                                  means, mode)
-        
-    permutations = np.array([instance]*perm_iter).transpose()
-    if type(cat_permutations)!=bool:
-        cat_permutations = cat_permutations.transpose()
-        for j in cats:
-            permutations[j] = cat_permutations[j]
-            
-    if type(num_permutations)!=bool:
-        num_permutations = num_permutations.transpose()
-        for j in nums:
-            permutations[j] = num_permutations[j]
-    permutations = permutations.transpose()
-    
-    return permutations
-
-def cramers_v(x, y):
-    confusion_matrix = pd.crosstab(x,y)
-    chi2 = scipy.stats.chi2_contingency(confusion_matrix)[0]
-    n = confusion_matrix.sum().sum()
-    phi2 = chi2/n
-    r,k = confusion_matrix.shape
-    phi2corr = max(0, phi2-((k-1)*(r-1))/(n-1))
-    rcorr = r-((r-1)**2)/(n-1)
-    kcorr = k-((k-1)**2)/(n-1)
-    return np.sqrt(phi2corr/min((kcorr-1),(rcorr-1)))
-
-def correlation_ratio(categories, measurements):
-    fcat, _ = pd.factorize(categories)
-    cat_num = np.max(fcat)+1
-    y_avg_array = np.zeros(cat_num)
-    n_array = np.zeros(cat_num)
-    for i in range(0,cat_num):
-        cat_measures = measurements[np.argwhere(fcat == i).flatten()]
-        n_array[i] = len(cat_measures)
-        y_avg_array[i] = np.average(cat_measures)
-    y_total_avg = np.sum(np.multiply(y_avg_array,n_array))/np.sum(n_array)
-    numerator = np.sum(np.multiply(n_array,np.power(np.subtract(y_avg_array,y_total_avg),2)))
-    denominator = np.sum(np.power(np.subtract(measurements,y_total_avg),2))
-    if numerator == 0:
-        eta = 0.0
-    else:
-        eta = np.sqrt(numerator/denominator)
-    return eta
-
-
+#Evaluate permutation for a data point
 def evaluate(i):
     instance = sample_instances[i]
 
@@ -243,7 +174,8 @@ def evaluate(i):
     perm_mape = np.zeros(len(instance))
     perm_rmse = np.zeros(len(instance))
     perm_r2 = np.zeros(len(instance))
-
+    
+    #Perturb and check difference in output
     for j in range(len(instance)):
         if cats != None:
             if trainingdata.columns[j] in cat_cols:
@@ -259,6 +191,7 @@ def evaluate(i):
             perm_rmse[j] = mean_squared_error(p1_list, p2_list, squared=False)
             perm_r2[j] = r2_score(p1_list, p2_list)
 
+    #Calculate correlation between true and explanation rankings
     #print("Final MAPE for all features:", perm_mape)
     mape_corr = scipy.stats.kendalltau(tr, perm_mape, variant="b")[0]
     rmse_corr = scipy.stats.kendalltau(tr, perm_rmse, variant="b")[0]
@@ -305,6 +238,7 @@ dataset_ref_to_datasets = {
 
 datasets = [dataset_ref] if dataset_ref not in dataset_ref_to_datasets else dataset_ref_to_datasets[dataset_ref]
 
+#Extract relevant information from event logs
 dt_train_prefixes = pd.read_csv(os.path.join(PATH, "%s/datasets/train_prefixes.csv" % (dataset_ref)))
 dt_test_prefixes = pd.read_csv(os.path.join(PATH, "%s/datasets/test_prefixes.csv" % (dataset_ref)))
 dt_val_prefixes = pd.read_csv(os.path.join(PATH, "%s/datasets/val_prefixes.csv" % (dataset_ref)))
@@ -331,7 +265,7 @@ for dataset_name in datasets:
         dataset_manager = DatasetManager(dataset_name)
         
 
-        for bucket in tqdm_notebook(range(num_buckets)):
+        for bucket in tqdm(range(num_buckets)):
             bucketID = bucket+1
             print ('Bucket', bucketID)
 
@@ -374,12 +308,14 @@ for dataset_name in datasets:
                 sample_instances = scaler.transform(sample_instances)
             
 
+            #Get relevant values for permutation from all columns
             #trainingdata = pd.DataFrame(trainingdata, columns=feat_list)
             min_X = np.min(trainingdata)
             max_X = np.max(trainingdata)
             mean_X = np.mean(trainingdata, axis=0)
             unique_values = pd.Series({col: trainingdata[col].unique() for col in trainingdata.columns})
 
+            #Permute with each of the possible ways
             for mode in modes:
                 ktb_list = []
                 true_v_mape = []
@@ -404,6 +340,3 @@ for dataset_name in datasets:
                                index = False, sep = ";")
                 
                 all_results.append(results)
-                
-#pd.concat(all_results).to_csv(os.path.join(PATH,"%s/%s/%s/samples/all_perm_results.csv") % (dataset_ref, cls_method, method_name), 
-#                               sep=";", index=False)

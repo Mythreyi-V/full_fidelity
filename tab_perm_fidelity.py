@@ -1,8 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
+##EVALUATIION OF PERTURBATION TECHNIQUES USING A TRANSPARENT MODEL
+##USING EVENT LOGS.
 
 import pandas as pd
 import numpy as np
@@ -13,7 +10,6 @@ from sklearn.utils.validation import check_symmetric
 from sklearn.cluster import DBSCAN
 from sklearn.preprocessing import OneHotEncoder, OrdinalEncoder
 
-import hdbscan
 from scipy.cluster import hierarchy
 import scipy.spatial.distance as ssd
 
@@ -24,15 +20,6 @@ import warnings
 warnings.filterwarnings('ignore')
 
 import scipy
-
-import shap
-import lime
-import learning
-import pyAgrum
-#from acv_explainers import ACXplainer
-
-#from anchor import anchor_tabular
-
 import json
 
 from tqdm import tqdm, tqdm_notebook
@@ -45,10 +32,7 @@ import seaborn as sns
 
 from itertools import filterfalse
 
-
-# In[2]:
-
-
+#Extract ranks from decision tree
 def get_tree_features(cls, instance):
     tree = cls.tree_
     lvl = 0
@@ -78,10 +62,7 @@ def get_tree_features(cls, instance):
     
     return feat_pos
 
-
-# In[3]:
-
-
+#Extract coefficients from logistic regression model
 def get_reg_features(cls):
 
     og_coef = cls.coef_
@@ -92,10 +73,7 @@ def get_reg_features(cls):
         
     return coef
 
-
-# In[4]:
-
-
+#Rank features in Naive Bayes model
 def get_nb_features(cls, instance):
     pred = cls.predict(instance.reshape(1, -1))
     means = cls.theta_[pred][0]
@@ -115,10 +93,7 @@ def get_nb_features(cls, instance):
         
     return np.abs(likelihoods)
 
-
-# In[5]:
-
-
+#Get rankings from models
 def get_true_rankings(cls, instance, cls_method, X_train, feat_list):
     if cls_method == "decision_tree":
         feat_pos = get_tree_features(cls, instance)
@@ -131,10 +106,7 @@ def get_true_rankings(cls, instance, cls_method, X_train, feat_list):
         
     return feat_pos
 
-
-# In[6]:
-
-
+#Perturb a continuous feature
 def permute_instance(instance, i, perm_iter = 100, min_i = [0], max_i=[1], mean_i=[0], mode="permutation"):
             
     permutations = np.array([instance]*perm_iter).transpose()
@@ -158,10 +130,7 @@ def permute_instance(instance, i, perm_iter = 100, min_i = [0], max_i=[1], mean_
 
     return permutations
 
-
-# In[7]:
-
-
+#Perturb a discrete feature
 def cycle_values(instance, i, perm_iter = 100, min_i = [0], max_i=[1], mean_i=[0], unique_values=[[0,1]], mode="permutation"):
 
     permutations = np.array([instance]*perm_iter).transpose()
@@ -184,10 +153,7 @@ def cycle_values(instance, i, perm_iter = 100, min_i = [0], max_i=[1], mean_i=[0
 
     return permutations
 
-
-# In[8]:
-
-
+#Evaluate permutation for a data point
 def permute_multiple(instance, i, columns, col_dict, perm_iter=100, min_i = [0], max_i=[1], mean_i=[0],unique_values=[[0,1]], mode="permutation"):
     
     cats = []
@@ -225,54 +191,9 @@ def permute_multiple(instance, i, columns, col_dict, perm_iter=100, min_i = [0],
         num_permutations = num_permutations.transpose()
         for j in nums:
             permutations[j] = num_permutations[j]
-#     if  len(cats)>0:
-#         print("categorical:", permutations[cats])
-#     if len(nums)>0:
-#         print("numeric", permutations[nums])
-#     print("all", permutations[i])        
     permutations = permutations.transpose()
     
     return permutations
-
-
-# In[9]:
-
-
-def cramers_v(x, y):
-    confusion_matrix = pd.crosstab(x,y)
-    chi2 = scipy.stats.chi2_contingency(confusion_matrix)[0]
-    n = confusion_matrix.sum().sum()
-    phi2 = chi2/n
-    r,k = confusion_matrix.shape
-    phi2corr = max(0, phi2-((k-1)*(r-1))/(n-1))
-    rcorr = r-((r-1)**2)/(n-1)
-    kcorr = k-((k-1)**2)/(n-1)
-    return np.sqrt(phi2corr/min((kcorr-1),(rcorr-1)))
-
-
-# In[10]:
-
-
-def correlation_ratio(categories, measurements):
-    fcat, _ = pd.factorize(categories)
-    cat_num = np.max(fcat)+1
-    y_avg_array = np.zeros(cat_num)
-    n_array = np.zeros(cat_num)
-    for i in range(0,cat_num):
-        cat_measures = measurements[np.argwhere(fcat == i).flatten()]
-        n_array[i] = len(cat_measures)
-        y_avg_array[i] = np.average(cat_measures)
-    y_total_avg = np.sum(np.multiply(y_avg_array,n_array))/np.sum(n_array)
-    numerator = np.sum(np.multiply(n_array,np.power(np.subtract(y_avg_array,y_total_avg),2)))
-    denominator = np.sum(np.power(np.subtract(measurements,y_total_avg),2))
-    if numerator == 0:
-        eta = 0.0
-    else:
-        eta = np.sqrt(numerator/denominator)
-    return eta
-
-
-# In[11]:
 
 
 # path to project folder
@@ -283,7 +204,6 @@ dataset = "nursery"
 cls_method = "nb"
 
 classification = True
-# xai_method = "SHAP"
 
 modes = ["permutation", "baseline_min", "baseline_mean", "baseline_max", "baseline_0"]
 
@@ -311,20 +231,13 @@ feat_list = [each.replace(' ','_') for each in X_train.columns]
 cls = joblib.load(save_to+cls_method+"/cls.joblib")
 scaler = joblib.load(save_to+"/scaler.joblib")
 
-
-# In[13]:
-
-
+#Get relevant values for permutation from all columns
 min_X = np.min(X_train)
 max_X = np.max(X_train)
 mean_X = np.mean(X_train, axis=0)
 unique_values = pd.Series({col: X_train[col].unique() for col in X_train.columns})
 
-
-# In[23]:
-
-
-#permute individual features
+#Permute with each of the possible ways
 for mode in modes:
     print(mode)
     ktb_list = []
@@ -332,7 +245,7 @@ for mode in modes:
     true_v_rmse = []
     true_v_r2 = []
 
-    for i in tqdm_notebook(range(len(test_x.values))):
+    for i in tqdm(range(len(test_x.values))):
         instance = test_x.values[i]
 
         tr = get_true_rankings(cls, instance, cls_method, X_train, feat_list)
@@ -345,7 +258,8 @@ for mode in modes:
         perm_mape = np.zeros(len(instance))
         perm_rmse = np.zeros(len(instance))
         perm_r2 = np.zeros(len(instance))
-
+        
+        #Perturb and check difference in output
         for j in range(len(instance)):
             if col_dict["continuous"] != None:
                 if X_train.columns[j] in col_dict["continuous"]:
@@ -360,7 +274,8 @@ for mode in modes:
                 perm_mape[j] = mean_absolute_percentage_error(p1_list, p2_list)
                 perm_rmse[j] = mean_squared_error(p1_list, p2_list, squared=False)
                 perm_r2[j] = r2_score(p1_list, p2_list)
-
+    
+        #Calculate correlation between true and explanation rankings
         #print("Final MAPE for all features:", perm_mape)
         mape_corr = scipy.stats.kendalltau(tr, perm_mape, variant="b")[0]
         rmse_corr = scipy.stats.kendalltau(tr, perm_rmse, variant="b")[0]

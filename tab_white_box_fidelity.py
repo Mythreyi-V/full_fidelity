@@ -1,3 +1,6 @@
+##EVALUATIION OF POST HOC XAI TECHNIQUES' FIDELITY USING A TRANSPARENT MODEL
+##USING TABULAR DATA.
+
 import pandas as pd
 import numpy as np
 
@@ -29,6 +32,7 @@ import multiprocessing as mp
 import json
 from collections import Counter
 
+#Extract true features and rank from logistic regression
 def get_reg_features(cls, percentile):
     
     og_coef = cls.coef_
@@ -47,6 +51,7 @@ def get_reg_features(cls, percentile):
     
     return coef, feat_pos
 
+#Extract true features and rank from naive Bayes
 def get_nb_features(cls, instance, percentile):
     pred = cls.predict(instance.reshape(1, -1))
     means = cls.theta_[pred][0]
@@ -57,11 +62,6 @@ def get_nb_features(cls, instance, percentile):
     alt_std = np.sqrt(cls.var_[alt])[0]
     
     likelihoods = []
-    
-#     for i in range(len(means)):
-#         lkhood = scipy.stats.norm(means[i], std[i]).logpdf(instance[i])
-#         #likelihoods.append(abs(lkhood))
-#         likelihoods.append(lkhood)
 
     for i in range(len(means)):
         lk = scipy.stats.norm(means[i], std[i]).logpdf(instance[i])
@@ -75,18 +75,11 @@ def get_nb_features(cls, instance, percentile):
     k = (max_coef-min_coef)*percentile
     q1_min = max_coef - k
     
-#     bins = pd.cut(likelihoods, 10, retbins = True, duplicates = "drop")[1]
-#     lim_1 = bins[-2]
-#     lim_2 = bins[1]
-    
-#     sortedls = sorted(likelihoods, reverse=True)
-#     pos = math.ceil(len(likelihoods)/4)
-#     lim = likelihoods[pos]
-    
     feat_pos = [i for i in range(len(likelihoods)) if likelihoods[i] >= q1_min]# or likelihoods[i] <= lim_2]
     
     return likelihoods, feat_pos
 
+#Extract true features and rank from decision tree
 def get_tree_features(cls, instance):
     tree = cls.tree_
     lvl = 0
@@ -118,6 +111,7 @@ def get_tree_features(cls, instance):
     
     return score, feat_pos
 
+#Examine tree structure
 def get_path_depths(tree, feat_list, cur_depth = 0, lvl = 0, depths = []):
     
     left_child = tree.children_left[lvl]
@@ -131,6 +125,7 @@ def get_path_depths(tree, feat_list, cur_depth = 0, lvl = 0, depths = []):
         depths = get_path_depths(tree, feat_list, cur_depth+1, right_child, depths)
     return depths
 
+#Extract explanation features and rank from SHAP
 def get_shap_features(explainer, instance, cls, classification, exp_iter, feat_list, percentile):
     
     shap_exp = []
@@ -143,35 +138,18 @@ def get_shap_features(explainer, instance, cls, classification, exp_iter, feat_l
         else:
             exp = explainer(instance.reshape(1, -1)).values
         
-        #print(exp.shape)
-        #print(exp)
-        
         if exp.shape == (1, len(feat_list), 2):
             exp = exp[0]
-            
-        #print(exp.shape)
         
         if exp.shape == (len(feat_list), 2):
             exp = np.array([feat[pred] for feat in exp]).reshape(len(feat_list))
         elif exp.shape == (1, len(feat_list)) or exp.shape == (len(feat_list), 1):
             exp = exp.reshape(len(feat_list))
             
-        #print(np.array(exp).shape)
-            
         shap_exp.append(exp)
-        
-    #print(np.array(shap_exp).shape)
-        
+
     if np.array(shap_exp).shape != (exp_iter, len(feat_list)):
         raise Exception("Explanation shape is not correct. It is", np.array(shap_exp).shape, "instead of the expected", (exp_iter, len(feat_list)))
-    
-#     if classification==True, type(explainer) == shap.explainers._tree.Tree:
-#         shap_exp = []
-#         for each in full_exp:
-#             single_exp = [feat[0] for feat in each]
-#             shap_exp.append(single_exp)
-#     else:
-#         shap_exp = full_exp
         
     avg_val = np.average(shap_exp, axis = 0)
     abs_val = [abs(val) for val in avg_val]
@@ -180,6 +158,7 @@ def get_shap_features(explainer, instance, cls, classification, exp_iter, feat_l
     min_coef = min(abs_val)
     max_coef = max(abs_val)
     
+    #Get top-k features
     k = (max_coef-min_coef)*percentile
     q1_min = max_coef - k
 
@@ -190,6 +169,7 @@ def get_shap_features(explainer, instance, cls, classification, exp_iter, feat_l
     
     return abs_val, shap_features
 
+#Extract explanation features and rank from LIME
 def get_lime_features(explainer, instance, cls, classification, exp_iter, feat_list, percentile):
     lime_exp = []
     
@@ -226,6 +206,7 @@ def get_lime_features(explainer, instance, cls, classification, exp_iter, feat_l
     min_coef = min(abs_weight)
     max_coef = max(abs_weight)
     
+    #Get top-k features
     k = (max_coef-min_coef)*percentile
     q1_min = max_coef - k
     
@@ -236,12 +217,14 @@ def get_lime_features(explainer, instance, cls, classification, exp_iter, feat_l
     
     return abs_weight, lime_features
 
+#Extract explanation features and rank from LINDA-BN
 def get_linda_features(instance, cls, scaler, dataset, exp_iter, feat_list, percentile):
     label_lst = ["Negative", "Positive"]
     
     feat_pos = []
     lkhoods = []
     
+    #Generate multiple explanations
     for i in range(exp_iter):
         [bn, inference, infoBN] = generate_BN_explanations(instance, label_lst, feat_list, "Result", 
                                                                        None, scaler, cls, save_to+"/"+cls_method+"/", dataset, show_in_notebook = False)
@@ -284,6 +267,7 @@ def get_linda_features(instance, cls, scaler, dataset, exp_iter, feat_list, perc
 
         lkhoods.append(likelihood)
         
+    #Get top-K features     
     min_coef = min( np.mean(lkhoods, axis=0))
     max_coef = max( np.mean(lkhoods, axis=0))
     
@@ -301,6 +285,7 @@ def get_linda_features(instance, cls, scaler, dataset, exp_iter, feat_list, perc
     
     return np.mean(lkhoods, axis=0), feat_pos
 
+#Extract explanation features and rank from ACV
 def get_acv_features(explainer, instance, cls, X_train, y_train, exp_iter):
     instance = instance.reshape(1, -1)
     y = cls.predict(instance)
@@ -310,6 +295,7 @@ def get_acv_features(explainer, instance, cls, X_train, y_train, exp_iter):
     feats = []
     feat_imp = []
 
+    #Get average explanation
     for i in range(exp_iter):
         sufficient_expl, sdp_expl, sdp_global = explainer.sufficient_expl_rf(instance, y, X_train, y_train,
                                                                                  t=t, pi_level=0.8)
@@ -343,6 +329,7 @@ def get_acv_features(explainer, instance, cls, X_train, y_train, exp_iter):
     
     return feat_imp, feat_pos
 
+#Extract explanation features and rank
 def get_explanation_features(explainer, instance, cls, scaler, dataset, 
                              classification, exp_iter, xai_method, feat_list, X_train, y_train, percentile):
     if xai_method == "SHAP":
@@ -362,6 +349,7 @@ def get_explanation_features(explainer, instance, cls, scaler, dataset,
         
     return exp_score, explanation_features
 
+#Extract true features and rank
 def get_true_features(cls, instance, cls_method, X_train, feat_list, percentile):
     if cls_method == "decision_tree":
         true_score, feat_pos = get_tree_features(cls, instance)
@@ -374,27 +362,24 @@ def get_true_features(cls, instance, cls_method, X_train, feat_list, percentile)
         
     true_features = [feat_list[i] for i in feat_pos]
     true_features = set(true_features)
-    
-    #print(feat_pos)
-    
+        
     return true_score, true_features
 
+#Evaluate
 def test_fidelity(i):
-    #print("i:", i)
     instance = test_x[i]
-    #print(instance)
+
+    #Get true features
     true_score, true_features = get_true_features(cls, instance, cls_method, X_train.values, feat_list, percentile)
-    #print("True Score", true_score)
     
+    #Extract explanation features    
     if xai_method == "LINDA":
         instance = test_dict[i]
     
     exp_score, explanation_features = get_explanation_features(explainer, instance, cls, scaler, dataset, classification, exp_iter, xai_method, 
                                                         feat_list, X_train.values, y_train, percentile)
-#     print("Exp Score", exp_score)
-#     print("True Features: ", true_features)
-#     print("Explanation Features: ", explanation_features)
-    
+
+    #Calculate fidelity
     if len(explanation_features) == 0:
         recall = 0
         precision = 0
@@ -402,15 +387,8 @@ def test_fidelity(i):
         recall = len(true_features.intersection(explanation_features))/len(true_features)
         precision = len(true_features.intersection(explanation_features))/len(explanation_features)
         
-#     print("Recall:", recall)
-#     print("Precision:", precision)
-        
     corr = scipy.stats.kendalltau(true_score, exp_score)[0]
-    
-#     print("Corr:", corr)
-    #progress_bar.clear()
-    #progress_bar.update(i)
-    
+
     return precision, recall, corr
 
 # path to project folder
@@ -448,6 +426,7 @@ feat_list = [each.replace(' ','_') for each in X_train.columns]
 cls = joblib.load(save_to+cls_method+"/cls.joblib")
 scaler = joblib.load(save_to+"/scaler.joblib")
 
+#create explanation mechanism
 if xai_method == "SHAP":
     if cls_method == "xgboost" or cls_method == "decision_tree":
         explainer = shap.Explainer(cls)
@@ -494,21 +473,12 @@ compiled_corr = []
 #explain the chosen instances and find the fidelity
 pool = mp.Pool(mp.cpu_count(), initargs=(mp.RLock(),), initializer=tqdm.set_lock)
 
-#with tqdm(total = len(test_x)) as progress_bar:
-start = time.time()
-print(start)
-#recall, precision, corr = zip(*pool.map(test_fidelity, [i for i in range(len(test_x))]))
 for result in tqdm(pool.imap(test_fidelity, [i for i in range(len(test_x))]), total = len(test_x)):
     compiled_precision.append(result[0])
     compiled_recall.append(result[1])
     compiled_corr.append(result[2])
     
-print(time.time()-start, "seconds")
     
-# compiled_precision = list(precision)
-# compiled_recall = list(recall)
-# compiled_corr = list(corr)
-
 compiled_corr = np.nan_to_num(compiled_corr)
     
 results[xai_method+" Precision"] = compiled_precision

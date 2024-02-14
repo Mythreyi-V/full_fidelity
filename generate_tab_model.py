@@ -1,14 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
-#!pip install lime
-#!pip install shap
-#!pip install anchor-exp
-#!pip install hyperopt
-#!pip install imodels
+## MODEL TRAINING USING TABULAR DATA (INCLUDING HYPERPARAMETER OPTIMISATION)
 
 import pandas as pd
 import numpy as np
@@ -59,10 +49,6 @@ from anchor import anchor_tabular
 import time
 import random
 
-
-# In[2]:
-
-
 # path to project folder
 # please change to your own
 PATH = os.getcwd()
@@ -80,10 +66,6 @@ random.seed(random_state)
 save_to = "%s/%s/" % (PATH, dataset)
 dataset_folder = "%s/datasets/" % (save_to)
 
-
-# In[3]:
-
-
 #Get datasets
 X_train = pd.read_csv(dataset_folder+dataset+"_Xtrain.csv", index_col=False, sep = ";")#.values
 X_test = pd.read_csv(dataset_folder+dataset+"_Xtest.csv", index_col=False, sep = ";")#.values
@@ -93,26 +75,8 @@ y_train = pd.read_csv(dataset_folder+dataset+"_Ytrain.csv", index_col=False, sep
 y_test = pd.read_csv(dataset_folder+dataset+"_Ytest.csv", index_col=False, sep = ";").values.reshape(-1)
 y_validation = pd.read_csv(dataset_folder+dataset+"_Yvalidation.csv", index_col=False, sep = ";").values.reshape(-1)
 
-#cat_values = pd.read_csv(dataset_folder+"/cat_cols.csv").columns
-
 feat_list = X_train.columns
 results_template = pd.read_csv(os.path.join(dataset_folder, dataset+"_results_template.csv"), index_col=False)
-
-
-# In[4]:
-
-
-results_template
-
-
-# In[ ]:
-
-
-X_train
-
-
-# In[5]:
-
 
 #Set hyperparameter grid
 if cls_method == "xgboost":
@@ -136,49 +100,9 @@ elif cls_method == "logit":
              "tol": np.logspace(-4, 4, 50)}
     fit_params = {"sample_weight": None}
     
-elif cls_method == "brl":
-    space = {"minsupport": [random.uniform(0.1,0.9) for i in range (5)],
-             "max_iter": [random.randint(10000, 50000) for i in range(3)],
-             "maxcardinality": [random.randint(2, 10) for i in range((3))],
-             "n_chains": [random.randint(1,7) for i in range(3)]}
-    
-    feature_dict = OrderedDict()
-    
-    for i in range(len(feat_list)):
-        feature_dict[feat_list[i]] = f'X_{i}'
-    #cat_features = [feature_dict[value] for value in cat_values]
-    
-    #X_train[cat_values] = X_train[cat_values].astype(str)
-        
-    fit_params = {"feature_names": feat_list}
-                 #'undiscretized_features': cat_features}
-    
-elif cls_method == "lin_reg":
-    space = {"normalize": [True, False], "positive": [True, False],
-             "fit_intercept": [True, False]}
-    fit_params = {"sample_weight": None}
-
-elif cls_method == "knn":
-    space = {'n_neighbors': [random.randint(1, 15) for i in range(10)],
-             'weights': ['uniform', 'distance'],
-             'leaf_size': [random.randint(1,30) for i in range(10)],
-             'p': [1,2],
-             'algorithm': ['kd_tree', 'ball_tree', 'brute']}
-    fit_params = {}
-
 elif cls_method == "nb":
     space = {'var_smoothing': np.logspace(0, -9, 100)}
     fit_params = {}
-
-
-# In[6]:
-
-
-#X_train['is_recid'].values
-
-
-# In[7]:
-
 
 #Create prediction model
 if classification == True:
@@ -189,10 +113,6 @@ if classification == True:
         estimator = DecisionTreeClassifier(random_state = random_state)
     elif cls_method == "logit":
         estimator = LogisticRegression(random_state = random_state)
-    elif cls_method == "brl":
-        estimator = BayesianRuleListClassifier(random_state = random_state)
-    elif cls_method == "knn":
-        estimator = KNeighborsClassifier()
     elif cls_method == "nb":
         estimator = GaussianNB()
         
@@ -204,32 +124,17 @@ else:
         estimator = DecisionTreeRegressor(random_state = random_state)
     elif cls_method == "lin_reg":
         estimator = LinearRegression()
-    elif cls_method == "knn":
-        estimator = KNeighborsRegressor()
-        
+ 
+ 
+#Complete grid search and choose best model       
 cls = GridSearchCV(estimator, space, verbose = 10)
 cls.fit(X_train.values, y_train, **fit_params)
-
-
-# In[8]:
-
-
 cls = cls.best_estimator_
 joblib.dump(cls, save_to+cls_method+"/cls.joblib")
 
-if cls_method == "brl":
-    print(cls)
-
-
-# In[9]:
-
-
+#Test model accuracy
 test_x = pd.concat([X_test, X_validation])
 test_y = np.hstack([y_test, y_validation])
-if cls_method == "brl":
-    y_pred = cls.predict(test_x.values, threshold = 0.5)
-else:
-    y_pred = cls.predict(test_x.values)
 
 if classification == True:
     print(classification_report(test_y, y_pred))
@@ -238,17 +143,7 @@ else:
     print("MAE:", mean_absolute_error(test_y, y_pred))
     print("MAPE:", mean_absolute_percentage_error(test_y, y_pred))
 
-
-# In[10]:
-
-
-import sklearn
-sklearn.metrics.r2_score(test_y, y_pred)
-
-
-# In[11]:
-
-
+#Choose sample of data for testing
 if classification:
     full_test = pd.concat([test_x.reset_index(), results_template], axis = 1, join = 'inner').drop(['index'], axis = 1)
     full_test["predicted"] = y_pred
@@ -274,10 +169,6 @@ if classification:
     results_template["Prediction"] = preds
     results_template["Prediction Probability"] = probas
 
-
-# In[12]:
-
-
 if classification == False:
     full_test = pd.concat([test_x.reset_index(), results_template], axis = 1, join = 'inner').drop(['index'], axis = 1)
     if len(full_test) <= 100:
@@ -294,22 +185,8 @@ if classification == False:
     preds = cls.predict(test_sample.values)
     results_template["Prediction"] = preds
 
-
-# In[13]:
-
-
 results_template.to_csv(os.path.join(save_to, cls_method, "results.csv"), sep = ";", index = False)
 test_sample.to_csv(os.path.join(save_to, cls_method, "test_sample.csv"), sep = ";", index = False)
-
-
-# In[14]:
-
-
-results_template
-
-
-# In[ ]:
-
 
 
 
