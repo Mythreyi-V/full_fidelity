@@ -1,0 +1,1 @@
+This folder contains files associated with the COMPAS dataset and predictive models trained on this dataset.

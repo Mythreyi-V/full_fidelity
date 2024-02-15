@@ -1,0 +1,1 @@
+This folder contains code for bucketing techniques associated with predictive process analytics.

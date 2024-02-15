@@ -1,0 +1,1 @@
+This folder contains code for preprocessing of event log datasets.
