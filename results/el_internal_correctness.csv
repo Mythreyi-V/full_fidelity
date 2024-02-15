@@ -1,0 +1,28 @@
+Model,Dataset,Preprocessing,Model Accuracy,F1 Score,LIME Precision,LIME Recall,SHAP Precision,SHAP Recall,LINDA Precision,LINDA Recall
+decision_tree,BPIC2012,prefix_agg,0.5982,0.64,0.7664,0.3908,0.9643,0.4693,0.0578,1.0
+decision_tree,BPIC2012,prefix_index,0.5625,0.6016,0.7619,0.4935,0.9643,0.6171,0.0,0.0
+decision_tree,BPIC2012,single_agg,0.5625,0.5149,0.9062,0.9107,1.0,1.0,0.0083,1.0
+decision_tree,Production,prefix_agg,0.75,0.75,0.8929,0.4879,0.9598,0.5336,0.0239,1.0
+decision_tree,Production,prefix_index,0.6696,0.6891,0.9241,0.519,0.9821,0.5196,0.0,0.0
+decision_tree,Production,single_agg,0.75,0.7846,0.4018,0.12,0.9911,0.2877,0.0283,1.0
+decision_tree,Sepsis Cases,prefix_agg,0.5714,0.5556,0.8929,0.4188,0.9464,0.4625,0.0186,1.0
+decision_tree,Sepsis Cases,prefix_index,0.6696,0.6726,0.8705,0.3286,0.9732,0.3732,0.0,0.0
+decision_tree,Sepsis Cases,single_agg,0.5,0.0,1.0,1.0,1.0,1.0,0.0036,1.0
+logit,BPIC2012,prefix_agg,0.4911,0.5128,0.7812,0.75,0.125,0.125,0.0192,1.0
+logit,BPIC2012,prefix_index,0.4464,0.2619,0.8137,0.7173,0.2976,0.3036,0.0,0.0
+logit,BPIC2012,single_agg,0.5179,0.4808,0.756,1.0,0.0,0.0,0.0083,1.0
+logit,Production,prefix_agg,0.9286,0.9322,0.4717,0.497,0.0625,0.0461,0.009,1.0
+logit,Production,prefix_index,0.9375,0.9402,0.7604,0.6786,0.1607,0.0982,0.0,0.0
+logit,Production,single_agg,0.8929,0.9,0.9464,1.0,0.0179,0.0179,0.006,1.0
+logit,Sepsis Cases,prefix_agg,0.7232,0.7438,0.4643,0.5,0.0,0.0,0.007,1.0
+logit,Sepsis Cases,prefix_index,0.7768,0.7934,0.4851,0.5253,0.1295,0.0952,0.0,0.0
+logit,Sepsis Cases,single_agg,0.8125,0.8264,0.9866,1.0,0.0,0.0,0.0037,1.0
+nb,BPIC2012,prefix_agg,0.5089,0.3373,0.244,0.2247,0.6786,0.6696,0.0194,1.0
+nb,BPIC2012,prefix_index,0.4911,0.4242,0.1726,0.1815,0.8229,0.7869,0.0,0.0
+nb,BPIC2012,single_agg,0.4732,0.2532,0.0357,0.0357,0.7321,0.8705,0.01,1.0
+nb,Production,prefix_agg,0.8304,0.8288,0.0376,0.0859,0.8333,0.7746,0.0085,1.0
+nb,Production,prefix_index,0.875,0.8833,0.0327,0.0299,0.8839,0.4708,0.0,0.0
+nb,Production,single_agg,0.6786,0.5909,0.1621,0.1457,0.7857,0.6037,0.0157,1.0
+nb,Sepsis Cases,prefix_agg,0.625,0.6912,0.1095,0.2248,0.6265,0.5584,0.0089,1.0
+nb,Sepsis Cases,prefix_index,0.5625,0.6316,0.0557,0.1017,0.692,0.6641,0.0,0.0
+nb,Sepsis Cases,single_agg,0.6607,0.7246,0.0342,0.128,0.442,0.4464,0.0043,1.0
