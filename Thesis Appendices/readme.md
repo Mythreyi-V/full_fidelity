@@ -1,1 +1,1 @@
-This folder contains Appendices F, G and J for the PhD thesis "Evaluating Post Hoc Explanations Using Tabular Data: A Functionally-Grounded Perspective". The publication of this thesis is forthcoming.
+This folder contains Appendices G and J for the PhD thesis "Evaluating Post Hoc Explanations Using Tabular Data: A Functionally-Grounded Perspective". The publication of this thesis is forthcoming.
